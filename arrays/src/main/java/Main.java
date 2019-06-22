@@ -37,6 +37,6 @@ public class Main {
         double average = arrayForLoops.average(array1);
 
         int number = 2;
-        arrayForLoops.numberContains(2, array1);
+//        arrayForLoops.numberContains(2, array1);
     }
 }

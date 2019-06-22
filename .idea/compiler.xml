@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="arrays" />
+        <module name="collection" />
+        <module name="designpatterns" />
         <module name="exception" />
       </profile>
     </annotationProcessing>
