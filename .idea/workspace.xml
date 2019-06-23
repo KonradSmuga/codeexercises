@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="concurrency join and sleep">
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/Threads/DecreaserThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/Threads/IncreasedThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/Threads/NameIncreaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/Threads/SurnameIncreaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/util/MyCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/util/PersonIncreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/Smth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/GenericInterfaceOfAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LamdaInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="concurrency join and sleep" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/arrays/target/" />
@@ -45,7 +23,7 @@
     <session id="-1434866941">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -151,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stream/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="407">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -352,7 +330,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561291331279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561291409240" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bartek github/java-basics" />
@@ -520,15 +498,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.26091588" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.26091588" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4946752" weight="0.39956802" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.53780615" side_tool="true" visible="true" weight="0.23434125" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4941427" visible="true" weight="0.39956802" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5058573" side_tool="true" visible="true" weight="0.39956802" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45899895" weight="0.32397407" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.46219382" visible="true" weight="0.23434125" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.46219382" weight="0.23434125" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49946752" weight="0.39848813" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -940,8 +918,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stream/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="407">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

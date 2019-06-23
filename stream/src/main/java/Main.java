@@ -1,4 +1,7 @@
+import Optional.OptionalOnString;
 import lamdaInterfaces.*;
+
+import java.util.Optional;
 
 public class Main {
 
@@ -27,5 +30,12 @@ public class Main {
 
         Printer.print(toUpper, textString);
         Printer.print(removeSpace, textString);
+
+        Optional<String> someValue;
+
+        someValue = Optional.empty();
+
+
+
     }
 }
