@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/builder/MyBox.java" afterDir="false" />
+    <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="concurrency join and sleep">
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/Threads/DecreaserThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/Threads/IncreasedThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/Threads/NameIncreaser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/Threads/SurnameIncreaser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/util/MyCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/util/PersonIncreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/Smth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/GenericInterfaceOfAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LamdaInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/builder/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/builder/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,6 +31,7 @@
     <ignored path="$PROJECT_DIR$/collection/target/" />
     <ignored path="$PROJECT_DIR$/design-patterns/target/" />
     <ignored path="$PROJECT_DIR$/concurrency/target/" />
+    <ignored path="$PROJECT_DIR$/stream/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +48,7 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
@@ -38,39 +56,39 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="59" />
+          <entry key="java" value="81" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="81" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="26" />
-          <entry key="java" value="8825" />
+          <entry key="dummy" value="63" />
+          <entry key="java" value="11778" />
           <entry key="txt" value="56" />
           <entry key="xml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8825" />
-          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="JAVA" value="11778" />
+          <entry key="PLAIN_TEXT" value="119" />
           <entry key="XML" value="51" />
         </counts>
       </usages-collector>
@@ -80,201 +98,109 @@
     <favorites_list name="codeexercises" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.89575845">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/Box.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#87#88#0" expanded="true" />
-                    <element signature="e#121#122#0" expanded="true" />
-                    <element signature="e#529#530#0" expanded="true" />
-                    <element signature="e#553#554#0" expanded="true" />
-                    <element signature="e#604#605#0" expanded="true" />
-                    <element signature="e#628#629#0" expanded="true" />
-                    <element signature="e#701#702#0" expanded="true" />
-                    <element signature="e#728#729#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/SmallBox.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#96#97#0" expanded="true" />
-                    <element signature="e#128#129#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/Pizza.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1105">
-                  <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#428#429#0" expanded="true" />
-                    <element signature="e#456#457#0" expanded="true" />
-                    <element signature="e#488#489#0" expanded="true" />
-                    <element signature="e#516#517#0" expanded="true" />
-                    <element signature="e#549#550#0" expanded="true" />
-                    <element signature="e#578#579#0" expanded="true" />
-                    <element signature="e#621#622#0" expanded="true" />
-                    <element signature="e#654#655#0" expanded="true" />
-                    <element signature="e#1481#1482#0" expanded="true" />
-                    <element signature="e#1576#1577#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/MyBox.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
-                  <folding>
-                    <element signature="e#93#94#0" expanded="true" />
-                    <element signature="e#123#124#0" expanded="true" />
-                    <element signature="e#148#149#0" expanded="true" />
-                    <element signature="e#174#175#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="1010" column="16" selection-start-line="1010" selection-start-column="16" selection-end-line="1010" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/RunnableThreads.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-                  <folding>
-                    <element signature="e#140#141#0" expanded="true" />
-                    <element signature="e#184#185#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/ExtendedThread.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Runnable.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="169">
-                  <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/arrays/src/main/java/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="509">
-                  <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="50" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/homework-taxi/src/main/java/TaxiService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#134#135#0" expanded="true" />
-                    <element signature="e#168#169#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/arrays/src/main/java/ArrayForLoops.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1428">
-                  <caret line="86" selection-start-line="86" selection-end-line="86" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/homework-taxi/src/main/java/World.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/arrays/src/main/java/Author.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LamdaInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/Smth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/Printer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaDouble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/GenericInterfaceOfAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaPrint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -297,12 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/arrays/src/main/java/Author.java" />
-        <option value="$PROJECT_DIR$/arrays/pom.xml" />
-        <option value="$PROJECT_DIR$/arrays/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/arrays/src/main/java/ArrayForLoops.java" />
-        <option value="$PROJECT_DIR$/exception/src/main/java/com/sda/exception/main/ExceptionModuleRunner.java" />
         <option value="$PROJECT_DIR$/exception/src/main/resources/myfile.txt" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/sda/exception/io/FileReader.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/Coloro.java" />
@@ -331,8 +251,29 @@
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/builder/MyBox.java" />
         <option value="$PROJECT_DIR$/concurrency/src/main/java/RunnableThreads/RunnableThreads.java" />
         <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/RunnableThreads.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/ExtendedThread.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/ConcurrencyMath.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/OurCounter.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/IncreasedThread.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/DecreaserThread.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/Surname.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/util/MyCounter.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/SurnameIncreaser.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/util/PersonIncreasing.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/NameIncreaser.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/LamdaInterface.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/Smth.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/LamdaInt.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/LambdaNumbers.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/LambdaDouble.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/LambdaPrint.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaPrint.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaDouble.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/GenericInterfaceOfAll.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaString.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/Printer.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -355,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,67 +306,25 @@
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Threads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -434,11 +332,11 @@
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="lamdaInterfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
@@ -448,12 +346,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561279352836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561291331279" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bartek github/java-basics" />
@@ -467,8 +366,10 @@
       <recent name="" />
       <recent name="vehicles" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="vehicles" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises\stream\src\main" />
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises" />
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises\arrays\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="vehicles" />
@@ -476,9 +377,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\konrad\Desktop\course\codeexercises" />
-      <recent name="C:\Users\konrad\Desktop\course\codeexercises\arrays\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="vehicles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -493,10 +393,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="concurrency" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="stream" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -534,36 +441,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UberTest.shouldThrowExceptonWhenUserLocationIsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codeexercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vehicles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vehicles" />
-      <option name="MAIN_CLASS_NAME" value="vehicles.UberTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptonWhenUserLocationIsNegative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.UberTest.shouldThrowExceptonWhenUserLocationIsNegative" />
       <item itemvalue="JUnit.UberTest.shouldTest" />
       <item itemvalue="JUnit.TaxiServiceTest.shouldFindClosestNotOccupiedTaxi" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TaxiServiceTest.shouldFindClosestNotOccupiedTaxi" />
         <item itemvalue="JUnit.UberTest.shouldTest" />
-        <item itemvalue="JUnit.UberTest.shouldThrowExceptonWhenUserLocationIsNegative" />
       </list>
     </recent_temporary>
   </component>
@@ -622,21 +513,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" visible="true" weight="0.25825346" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.25825346" />
+      <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.26091588" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4968051" visible="true" weight="0.39956802" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50319487" side_tool="true" visible="true" weight="0.39956802" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.48083067" weight="0.32397407" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4946752" weight="0.39956802" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.53780615" side_tool="true" visible="true" weight="0.23434125" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45899895" weight="0.32397407" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.48296058" weight="0.23434125" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.46219382" visible="true" weight="0.23434125" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49946752" weight="0.39848813" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -659,118 +551,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="concurrency join and sleep" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/arrays.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="230" column="22" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding>
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception/src/main/resources/myfile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/sda/exception/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/sda/exception/main/ExceptionModuleRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3382">
-          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeexercises.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.desktop/java/awt/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-taxi/src/main/java/vehicles/exceptions/WrongLocationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework-taxi/src/test/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -782,9 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
           <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,14 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,46 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework-taxi/src/main/java/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-taxi/src/main/java/TaxiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/src/main/java/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework-taxi/src/main/java/TaxiFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/src/main/java/ArrayForLoops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
@@ -888,10 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,11 +625,210 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/WildCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-patterns/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/PairCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/BoxTest.java" />
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/SmallBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/MyBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1189">
+          <caret line="1010" column="16" selection-start-line="1010" selection-start-column="16" selection-end-line="1010" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/MathThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/SurnameIncreaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/util/PersonIncreasing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/NameIncreaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/IncreasedThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/RunnableThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/ExtendedThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrays/src/main/java/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework-taxi/src/main/java/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrays/src/main/java/ArrayForLoops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework-taxi/src/main/java/TaxiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/util/MyCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -918,160 +843,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="458">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/WildCard.java">
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/DecreaserThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/LamdaInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-patterns/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/Smth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="51">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/Util.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/GenericInterfaceOfAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/PairCollection.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LamdaInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/SmallBox.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/BoxTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/MyBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="1010" column="16" selection-start-line="1010" selection-start-column="16" selection-end-line="1010" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/ExtendedThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/RunnableThreads.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1127,7 +997,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>concurrency</last-edited>
+          <last-edited>stream</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

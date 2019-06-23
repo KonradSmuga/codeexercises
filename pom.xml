@@ -14,6 +14,7 @@
         <module>collection</module>
         <module>design-patterns</module>
         <module>concurrency</module>
+        <module>stream</module>
     </modules>
 
     <dependencies>
