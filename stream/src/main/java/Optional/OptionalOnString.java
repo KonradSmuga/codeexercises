@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class OptionalOnString {
 
-    public Optional<String> getSomeValue() {
+    public static Optional<String> getSomeValue() {
         Random random = new Random();
         return random.nextBoolean() ?
                 Optional.empty() :
