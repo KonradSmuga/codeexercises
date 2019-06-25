@@ -41,14 +41,14 @@ public class Main {
 //                .orElse("domyslna wartość");
 //        System.out.println(result);
 
-        List<String> someStrings = Arrays.asList("asd", "Konrad","Konrad", "done", "house", "Java");
-        Set<String> processedNames =someStrings.stream()
+        List<String> someStrings = Arrays.asList("asd", "Konrad", "Konrad", "done", "house", "Java");
+        Set<String> processedNames = someStrings.stream()
                 .filter(str -> str.length() > 5)
                 .map(str -> str + "a")
-                .peek(str -> System.out.println("Filtered value: " + str))
+                .peek(System.out::println)
                 .collect(Collectors.toSet());
 
-processedNames.forEach(name -> System.out.println(name));
+        processedNames.forEach(System.out::println);
 
 
         //wiecej niz 5 znaków, dopisze dowolna wartosc typu string, wydrukuje wszystkie obiekty (*peek), zbierze do setu
