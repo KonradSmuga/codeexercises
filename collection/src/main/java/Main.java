@@ -1,4 +1,5 @@
 
+import NumberChasing.Numbers;
 import compareObjects.Books;
 import compareObjects.Employee;
 import compareObjects.SalaryParameters;
@@ -95,27 +96,29 @@ public class Main {
 //            myWorker.put(worker3, salaryParameters);
 //
 
-        Books book1 = new Books("Lord of the rings", 1990);
-        Books book2 = new Books("Java concurrency in practice", 2001);
-        Books book3 = new Books("Java 8 ", 2014);
-        Books book4 = new Books("Moja ksiazka", 1990);
-        Books book5 = new Books("Moja ksiazka", 1990);
-
-        HashSet<Books> books = new HashSet<>();
-        books.add(book1);
-        books.add(book2);
-        books.add(book3);
-        books.add(book4);
-        books.add(book5);
-
-
-        Iterator <Books> booksIterator = books.iterator();
-
-        while(booksIterator.hasNext()){
-            Books currentBooks = booksIterator.next();
-            System.out.println(currentBooks);
-
-        }
+//        Books book1 = new Books("Lord of the rings", 1990);
+//        Books book2 = new Books("Java concurrency in practice", 2001);
+//        Books book3 = new Books("Java 8 ", 2014);
+//        Books book4 = new Books("Moja ksiazka", 1990);
+//        Books book5 = new Books("Moja ksiazka", 1990);
+//
+//        HashSet<Books> books = new HashSet<>();
+//        books.add(book1);
+//        books.add(book2);
+//        books.add(book3);
+//        books.add(book4);
+//        books.add(book5);
+//
+//
+//        Iterator<Books> booksIterator = books.iterator();
+//
+//        while (booksIterator.hasNext()) {
+//            Books currentBooks = booksIterator.next();
+//            System.out.println(currentBooks);
+//
+//        }
+        Numbers numbers = new Numbers(1000, 0);
+        numbers.numberChasing();
 
 
     }
