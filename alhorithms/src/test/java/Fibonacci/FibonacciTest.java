@@ -63,9 +63,11 @@ public class FibonacciTest {
         assertEquals(3, value);
     }
 
+    @Test
     public void shouldReturnException() {
         final int number = -1;
 
+        //when and Then
         assertThrows(IllegalArgumentException.class, () -> {
             fibonacci.fibonacciIteration(number);
         });
