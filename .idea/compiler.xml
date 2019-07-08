@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alhorithms" />
         <module name="arrays" />
         <module name="collection" />
         <module name="concurrency" />
         <module name="designpatterns" />
         <module name="exception" />
+        <module name="learningawesometest" />
         <module name="stream" />
       </profile>
     </annotationProcessing>

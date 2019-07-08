@@ -15,6 +15,8 @@
         <module>design-patterns</module>
         <module>concurrency</module>
         <module>stream</module>
+        <module>learning-awesometest</module>
+        <module>alhorithms</module>
     </modules>
 
     <dependencies>

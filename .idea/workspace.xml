@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="concurrency join and sleep">
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/NumberChasing/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alhorithms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/fibonnaci/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/starfigures/PrintFigures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/collectionexercise/BigTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/collectionexercise/QueuesAndLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/collectionexercise/TaskManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/collectionexercise/WritesWithA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-awesometest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-awesometest/src/main/java/com/sda/testing/SimpleUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-awesometest/src/test/java/TestingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collection/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collection/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/collection/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +29,8 @@
     <ignored path="$PROJECT_DIR$/design-patterns/target/" />
     <ignored path="$PROJECT_DIR$/concurrency/target/" />
     <ignored path="$PROJECT_DIR$/stream/target/" />
+    <ignored path="$PROJECT_DIR$/learning-awesometest/target/" />
+    <ignored path="$PROJECT_DIR$/alhorithms/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,57 +38,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/codeexercises$Main__3_.ic" NAME="Main (3) Coverage Results" MODIFIED="1562587331930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sda.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/codeexercises$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1561276510397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1434866941">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.17" value="4" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="iml" value="3" />
-          <entry key="java" value="95" />
+          <entry key="java" value="107" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="95" />
+          <entry key="JAVA" value="107" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="63" />
-          <entry key="java" value="15541" />
+          <entry key="dummy" value="86" />
+          <entry key="java" value="17762" />
           <entry key="txt" value="56" />
           <entry key="xml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15541" />
-          <entry key="PLAIN_TEXT" value="119" />
+          <entry key="JAVA" value="17762" />
+          <entry key="PLAIN_TEXT" value="142" />
           <entry key="XML" value="51" />
         </counts>
       </usages-collector>
@@ -84,19 +105,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/oldapproach/Box.java">
+        <entry file="file://$PROJECT_DIR$/learning-awesometest/src/test/java/TestingMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="28" selection-start-line="28" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,19 +117,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/Color.java">
+        <entry file="file://$PROJECT_DIR$/alhorithms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/fibonnaci/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="404">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/starfigures/PrintFigures.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/FibonacciTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/org/junit/jupiter/api/function/Executable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/Main.java">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,58 +184,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/NumberChasing/Numbers.java">
+        <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/QueuesAndLoops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/compareObjects/Books.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-              <folding>
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/Box.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/compareObjects/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/compareObjects/SalaryParameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="340">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="22" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -221,18 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homework-taxi/src/main/java/TaxiService.java" />
-        <option value="$PROJECT_DIR$/homework-taxi/src/test/java/TaxiServiceTest.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/Box.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/oldapproach/Box.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/generics/MyMap.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/generics/PairCollection.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/generics/Pair.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/generics/Util.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/generics/BigBox.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/generics/Box.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/generics/SmallBox.java" />
-        <option value="$PROJECT_DIR$/arrays/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/generics/WildCard.java" />
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/builder/Pizza.java" />
@@ -270,8 +268,20 @@
         <option value="$PROJECT_DIR$/collection/src/main/java/compareObjects/SalaryPayments.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/compareObjects/SalaryParameters.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/compareObjects/Books.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/NumberChasing/Numbers.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/collectionexercise/BigTestData.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/collectionexercise/WritesWithA.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/collectionexercise/TaskManager.java" />
+        <option value="$PROJECT_DIR$/collection/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/learning-awesometest/src/main/java/com/sda/testing/SimpleUser.java" />
+        <option value="$PROJECT_DIR$/learning-awesometest/src/test/java/TestingMain.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/main/java/fibonnaci/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/collectionexercise/QueuesAndLoops.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/fibonnaci/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/FibonacciTest.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/starfigures/PrintFigures.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" />
       </list>
     </option>
   </component>
@@ -282,11 +292,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2112" />
-    <option name="y" value="554" />
-    <option name="width" value="1557" />
-    <option name="height" value="915" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2301" />
+    <option name="y" value="635" />
+    <option name="width" value="1936" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -294,6 +304,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,6 +316,85 @@
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="fibonnaci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="starfigures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Fibonacci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
               <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,7 +425,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NumberChasing" type="462c0819:PsiDirectoryNode" />
+              <item name="collectionexercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
@@ -344,16 +435,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561461029934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562589641358" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bartek github/java-basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../07.07/sda-java-basics" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2031496" />
@@ -364,8 +453,10 @@
       <recent name="" />
       <recent name="vehicles" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="vehicles" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises\stream\src\main" />
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises" />
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises\arrays\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="vehicles" />
@@ -373,10 +464,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\konrad\Desktop\course\codeexercises\stream\src\main" />
-      <recent name="C:\Users\konrad\Desktop\course\codeexercises" />
-      <recent name="C:\Users\konrad\Desktop\course\codeexercises\arrays\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="vehicles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,68 +480,96 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="concurrency" />
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.Main" />
+      <module name="alhorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="stream" />
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alhorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="Fibonacci.FibonacciTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaxiServiceTest.shouldFindClosestNotOccupiedTaxi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codeexercises" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TaxiServiceTest" />
-      <option name="METHOD_NAME" value="shouldFindClosestNotOccupiedTaxi" />
+    <configuration name="FibonacciTest.shouldReturnCorrectValueWithRecurention" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alhorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="Fibonacci.FibonacciTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectValueWithRecurention" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UberTest.shouldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codeexercises" />
+    <configuration name="FibonacciTest.shouldReturnZeroValueWithIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alhorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vehicles.*" />
+          <option name="PATTERN" value="Fibonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="vehicles" />
-      <option name="MAIN_CLASS_NAME" value="vehicles.UberTest" />
-      <option name="METHOD_NAME" value="shouldTest" />
+      <option name="PACKAGE_NAME" value="Fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="Fibonacci.FibonacciTest" />
+      <option name="METHOD_NAME" value="shouldReturnZeroValueWithIteration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTest.shouldReturnZeroValueWithRecurention" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alhorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="Fibonacci.FibonacciTest" />
+      <option name="METHOD_NAME" value="shouldReturnZeroValueWithRecurention" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UberTest.shouldTest" />
-      <item itemvalue="JUnit.TaxiServiceTest.shouldFindClosestNotOccupiedTaxi" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="JUnit.FibonacciTest.shouldReturnZeroValueWithIteration" />
+      <item itemvalue="JUnit.FibonacciTest.shouldReturnZeroValueWithRecurention" />
+      <item itemvalue="JUnit.FibonacciTest.shouldReturnCorrectValueWithRecurention" />
+      <item itemvalue="JUnit.FibonacciTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.TaxiServiceTest.shouldFindClosestNotOccupiedTaxi" />
-        <item itemvalue="JUnit.UberTest.shouldTest" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="JUnit.FibonacciTest" />
+        <item itemvalue="JUnit.FibonacciTest.shouldReturnCorrectValueWithRecurention" />
+        <item itemvalue="JUnit.FibonacciTest.shouldReturnZeroValueWithRecurention" />
+        <item itemvalue="JUnit.FibonacciTest.shouldReturnZeroValueWithIteration" />
       </list>
     </recent_temporary>
   </component>
@@ -478,39 +595,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UberTest_shouldThrowExceptonWhenUserLocationIsNegative - 2019.06.22 at 11h 43m 13s.xml">
-      <configuration name="UberTest.shouldThrowExceptonWhenUserLocationIsNegative" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_shouldReturnZeroValueWithIteration - 2019.07.08 at 14h 14m 09s.xml">
+      <configuration name="FibonacciTest.shouldReturnZeroValueWithIteration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UberTest_shouldTest - 2019.06.22 at 11h 46m 08s.xml">
-      <configuration name="UberTest.shouldTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_shouldReturnZeroValueWithIteration - 2019.07.08 at 14h 15m 32s.xml">
+      <configuration name="FibonacciTest.shouldReturnZeroValueWithIteration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UberTest_shouldTest - 2019.06.22 at 11h 46m 25s.xml">
-      <configuration name="UberTest.shouldTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_shouldReturnZeroValueWithIteration - 2019.07.08 at 14h 15m 48s.xml">
+      <configuration name="FibonacciTest.shouldReturnZeroValueWithIteration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UberTest_shouldTest - 2019.06.22 at 11h 46m 37s.xml">
-      <configuration name="UberTest.shouldTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_shouldReturnZeroValueWithIteration - 2019.07.08 at 14h 17m 55s.xml">
+      <configuration name="FibonacciTest.shouldReturnZeroValueWithIteration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UberTest_shouldTest - 2019.06.22 at 11h 47m 52s.xml">
-      <configuration name="UberTest.shouldTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_shouldReturnZeroValueWithRecurention - 2019.07.08 at 14h 24m 37s.xml">
+      <configuration name="FibonacciTest.shouldReturnZeroValueWithRecurention" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UberTest_shouldTest - 2019.06.22 at 11h 48m 06s.xml">
-      <configuration name="UberTest.shouldTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_shouldReturnCorrectValueWithRecurention - 2019.07.08 at 14h 25m 38s.xml">
+      <configuration name="FibonacciTest.shouldReturnCorrectValueWithRecurention" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UberTest_shouldTest - 2019.06.22 at 11h 48m 52s.xml">
-      <configuration name="UberTest.shouldTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2019.07.08 at 14h 25m 49s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaxiServiceTest_shouldFindClosestNotOccupiedTaxi - 2019.06.22 at 12h 24m 39s.xml">
-      <configuration name="TaxiServiceTest.shouldFindClosestNotOccupiedTaxi" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2019.07.08 at 14h 26m 35s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaxiServiceTest_shouldFindClosestNotOccupiedTaxi - 2019.06.22 at 12h 25m 49s.xml">
-      <configuration name="TaxiServiceTest.shouldFindClosestNotOccupiedTaxi" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2019.07.08 at 14h 27m 00s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaxiServiceTest_shouldFindClosestNotOccupiedTaxi - 2019.06.22 at 13h 16m 39s.xml">
-      <configuration name="TaxiServiceTest.shouldFindClosestNotOccupiedTaxi" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2019.07.08 at 14h 37m 07s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="2112" y="554" width="1557" height="915" extended-state="0" />
+    <frame x="1912" y="453" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -518,19 +644,20 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.36691126" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.30617678" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4916611" weight="0.42929935" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5430287" side_tool="true" visible="true" weight="0.23184714" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45628256" weight="0.3222749" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" weight="0.2902098" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5484558" side_tool="true" weight="0.33916083" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45101172" weight="0.3188406" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.45697132" visible="true" weight="0.23184714" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49833223" weight="0.39745224" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4515442" visible="true" weight="0.41097307" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.3974359" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49946752" weight="0.32983682" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32960597" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -548,106 +675,7 @@
     <MESSAGE value="concurrency join and sleep" />
     <option name="LAST_COMMIT_MESSAGE" value="concurrency join and sleep" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/collection/src/main/java/NumberChasing/Numbers.java</url>
-          <line>24</line>
-          <properties class="NumberChasing.Numbers" method="numberChasing">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-patterns/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/PairCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/BoxTest.java" />
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/generics/SmallBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/MyBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="1010" column="16" selection-start-line="1010" selection-start-column="16" selection-end-line="1010" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/MathThreads.java" />
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/SurnameIncreaser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/util/PersonIncreasing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/NameIncreaser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/IncreasedThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -808,9 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,9 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="28" selection-start-line="28" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,23 +874,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/compareObjects/SalaryParameters.java">
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="2142">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/WritesWithA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6732">
-          <caret line="440" column="14" selection-start-line="440" selection-start-column="14" selection-end-line="440" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/TaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-awesometest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-awesometest/src/main/java/com/sda/testing/SimpleUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/NumberChasing/Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/BigTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/collection/src/main/java/compareObjects/Books.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
+        <state relative-caret-position="646">
           <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="e#1006#1007#0" expanded="true" />
@@ -885,24 +955,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/NumberChasing/Numbers.java">
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/compareObjects/SalaryParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6732">
+          <caret line="440" column="14" selection-start-line="440" selection-start-column="14" selection-end-line="440" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-awesometest/src/test/java/TestingMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/alhorithms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/QueuesAndLoops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        <state relative-caret-position="340">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/fibonnaci/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/org/junit/jupiter/api/function/Executable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/starfigures/PrintFigures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -961,7 +1091,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>stream</last-edited>
+          <last-edited>alhorithms</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
