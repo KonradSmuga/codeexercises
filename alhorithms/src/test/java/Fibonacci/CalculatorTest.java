@@ -1,22 +1,21 @@
 package Fibonacci;
 
-import com.sda.calculator.Mathematic;
+import com.sda.mathematic.Calculator;
 import org.junit.Assert;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
 
-    Mathematic mathematic = new Mathematic();
+    Calculator calculator = new Calculator();
 
     @Test
     public void shouldReturnPowerIfNumberIsZero() {
         //given
         int number = 0;
         //when
-        int result = (int) mathematic.powerMath(number, 2);
+        int result = (int) calculator.powerMath(number, 2);
         //then
         Assert.assertEquals(0, result);
     }
@@ -26,7 +25,7 @@ public class CalculatorTest {
         //given
         int number = 3;
         //when
-        int result = (int) mathematic.powerMath(number, 2);
+        int result = (int) calculator.powerMath(number, 2);
         //then
         Assert.assertEquals(9, result);
     }
@@ -37,13 +36,12 @@ public class CalculatorTest {
         int number = 0;
         int number2 = 1;
         //when
-        int result = (int) mathematic.multiplication(number, number2);
+        int result = (int) calculator.multiplication(number, number2);
         //then
 
         assertThrows(IllegalArgumentException.class, () -> {
-            mathematic.multiplication(0, 1);
+            calculator.multiplication(0, 1);
         });
     }
-
 }
 

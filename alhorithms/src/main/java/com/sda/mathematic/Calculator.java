@@ -1,6 +1,6 @@
-package com.sda.calculator;
+package com.sda.mathematic;
 
-public class Mathematic {
+public class Calculator {
 
     public int addition(int a, int b) {
 
@@ -15,15 +15,18 @@ public class Mathematic {
     public int multiplication(int a, int b) {
 
 
-        if(a == 0 || b ==0){
-        throw new IllegalArgumentException();
+        if (a == 0 || b == 0) {
+            throw new IllegalArgumentException();
         }
         return a * b;
     }
 
     public int division(int a, int b) {
+        if (a == 0 || b == 0) {
+            throw new IllegalArgumentException();
+        }
 
-        return a + b;
+        return a / b;
     }
 
     public double powerMath(int number, int power) {
