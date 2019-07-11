@@ -1,4 +1,4 @@
-package com.sda.starfigures;
+package com.sda.Strings;
 
 public class PrintFigures {
 
