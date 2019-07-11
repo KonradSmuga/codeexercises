@@ -1,4 +1,4 @@
-package Fibonacci;
+package mathematic;
 
 import com.sda.mathematic.FieldsFigures;
 import org.junit.Assert;

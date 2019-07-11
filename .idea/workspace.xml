@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="concurrency join and sleep">
-      <change afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FieldsFigures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/FieldFiguresTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/NwdAndNwwTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/calculator/Mathematic.java" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alhorithms/target/classes/com/sda/calculator/Mathematic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alhorithms/target/test-classes/Fibonacci/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/target/test-classes/Fibonacci/CalculatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alhorithms/target/test-classes/Fibonacci/FibonacciTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/target/test-classes/Fibonacci/FibonacciTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,14 +70,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="107" />
-          <entry key="java" value="20378" />
+          <entry key="java" value="20411" />
           <entry key="txt" value="56" />
           <entry key="xml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20378" />
+          <entry key="JAVA" value="20411" />
           <entry key="PLAIN_TEXT" value="163" />
           <entry key="XML" value="51" />
         </counts>
@@ -124,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -176,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="428">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -188,8 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/NwdAndNwwTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="306">
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -285,8 +276,8 @@
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FieldsFigures.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/FieldFiguresTest.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/CalculatorTest.java" />
-        <option value="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/NwdAndNwwTest.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/NwdAndNwwTest.java" />
       </list>
     </option>
   </component>
@@ -297,11 +288,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="456" />
-    <option name="y" value="283" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1997" />
+    <option name="y" value="507" />
     <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -374,6 +365,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="fibonnaci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
@@ -473,7 +474,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562845997251" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562846286013" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../07.07/sda-java-basics" />
@@ -634,18 +635,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FieldFiguresTest_shouldReturnCorrectValueOnSquareField - 2019.07.11 at 13h 07m 42s.xml">
-      <configuration name="FieldFiguresTest.shouldReturnCorrectValueOnSquareField" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FieldFiguresTest_shouldReturnCorrectValueOnSquareField - 2019.07.11 at 13h 08m 15s.xml">
-      <configuration name="FieldFiguresTest.shouldReturnCorrectValueOnSquareField" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FieldFiguresTest_shouldReturnCorrectValueOnTriangleField - 2019.07.11 at 13h 09m 52s.xml">
-      <configuration name="FieldFiguresTest.shouldReturnCorrectValueOnTriangleField" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FieldFiguresTest_shouldReturnCorrectValueOnTriangleField - 2019.07.11 at 13h 20m 44s.xml">
-      <configuration name="FieldFiguresTest.shouldReturnCorrectValueOnTriangleField" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd - 2019.07.11 at 13h 47m 09s.xml">
       <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd" configurationId="JUnit" />
     </history-entry>
@@ -664,6 +653,18 @@
     <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 51m 01s.xml">
       <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 51m 15s.xml">
+      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 51m 25s.xml">
+      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 51m 55s.xml">
+      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 53m 43s.xml">
+      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,23 +676,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="453" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="453" width="1936" height="1096" extended-state="7" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.31256655" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.31256655" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" weight="0.27329192" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" visible="true" weight="0.27329192" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5484558" side_tool="true" weight="0.33916083" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45101172" weight="0.3188406" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4515442" weight="0.41097307" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" visible="true" weight="0.38509318" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4515442" weight="0.41025642" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38509318" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49946752" weight="0.32983682" />
@@ -712,20 +713,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="concurrency join and sleep" />
     <option name="LAST_COMMIT_MESSAGE" value="concurrency join and sleep" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java</url>
-          <line>20</line>
-          <properties class="com.sda.mathematic.NwdAndNww" method="nwdWithModulo">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/util/MyCounter.java">
@@ -1056,17 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/Fibonacci/NwdAndNwwTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="306">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1082,8 +1062,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="428">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
