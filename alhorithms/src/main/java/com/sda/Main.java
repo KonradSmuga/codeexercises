@@ -16,5 +16,7 @@ public class Main {
 
         ReverseWord reverse = new ReverseWord();
         System.out.println(reverse.reverse("Konrad"));
+
+        PrintFigures.printSlash(4);
     }
 }
