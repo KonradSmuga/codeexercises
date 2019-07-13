@@ -23,9 +23,20 @@ public class Factorial {
         if (n == 1) {
             return 1;
         } else if (n == 2) {
-            return  0.5;
-        }else{
+            return 0.5;
+        } else {
             return -recurention(n - 1) * recurention(n - 2);
+        }
+    }
+
+
+    public static long faactorialRecurention(int n) {
+
+        if (n < 2) {
+            return 1;
+        } else {
+            long i = factorialI(n - 1) * n;
+            return i;
         }
     }
 }

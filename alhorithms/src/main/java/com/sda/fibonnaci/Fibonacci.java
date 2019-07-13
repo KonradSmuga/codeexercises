@@ -33,6 +33,9 @@ public class Fibonacci {
         if (number1 < 2) {
             return number1;
         }
+        if (number1 < 0) {
+            throw new IllegalArgumentException();
+        }
         return (fibonacciRekurention(number1 - 1) + fibonacciRekurention(number1 - 2));
 
     }

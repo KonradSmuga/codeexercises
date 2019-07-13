@@ -40,20 +40,7 @@ class FactorialTest {
         //then
         Assert.assertEquals(result, 1);
     }
-
-
-    @Test
-    public void shouldReturnCorrectValueForPow() {
-
-        //given
-
-        //when & then
-        Factorial.factorialSquareI(5);
-
-
-    }
-
-
+    
     @Test
     public void shouldReturnCorrectValueFor() {
 

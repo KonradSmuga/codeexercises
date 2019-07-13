@@ -72,4 +72,21 @@ public class FibonacciTest {
         });
 
     }
+
+
+    @Test
+    public void fibonacciOptimizationTest(){
+        //given
+        int n =43;
+
+        //when
+        long startI = System.nanoTime();
+        fibonacci.fibonacciIteration(n);
+        System.out.println(System.nanoTime() - startI);
+
+        long startR = System.nanoTime();
+        fibonacci.fibonacciRekurention(n);
+        System.out.println(System.nanoTime() - startR);
+
+    }
 }
