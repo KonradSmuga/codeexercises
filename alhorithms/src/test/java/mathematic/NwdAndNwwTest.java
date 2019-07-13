@@ -21,7 +21,6 @@ public class NwdAndNwwTest {
         //then
 
         Assert.assertEquals(4, nwd, 0);
-
     }
 
     @Test

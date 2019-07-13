@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="concurrency join and sleep">
+      <change afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FactorialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/interfaceexample/EmailServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/interfaceexample/RentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Scooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/interfaceexample/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Trailer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/interfaceexample/interfaces/Rentable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/PrintFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/PrintFigures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alhorithms/src/test/java/mathematic/NwdAndNwwTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/src/test/java/mathematic/NwdAndNwwTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alhorithms/target/classes/com/sda/Strings/PrintFigures.class" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/target/classes/com/sda/Strings/PrintFigures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alhorithms/target/test-classes/mathematic/NwdAndNwwTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/target/test-classes/mathematic/NwdAndNwwTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +66,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="3" />
-          <entry key="java" value="117" />
+          <entry key="java" value="131" />
           <entry key="txt" value="1" />
           <entry key="xml" value="12" />
         </counts>
@@ -64,23 +75,23 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="117" />
+          <entry key="JAVA" value="131" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="119" />
-          <entry key="java" value="21408" />
+          <entry key="dummy" value="120" />
+          <entry key="java" value="23457" />
           <entry key="txt" value="56" />
           <entry key="xml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21408" />
-          <entry key="PLAIN_TEXT" value="175" />
+          <entry key="JAVA" value="23457" />
+          <entry key="PLAIN_TEXT" value="176" />
           <entry key="XML" value="51" />
         </counts>
       </usages-collector>
@@ -92,10 +103,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/fibonacci/FibonacciTest.java">
+        <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/Scooter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="551">
+              <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/RentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,20 +134,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/PrintFigures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/ReverseWord.java">
+        <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,13 +156,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/mathematic/CalculatorTest.java">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -154,11 +176,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/mathematic/FieldFiguresTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FactorialTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,31 +189,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FieldsFigures.java">
+        <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/Trailer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/mathematic/NwdAndNwwTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="432">
+              <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/EmailServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -201,10 +240,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Singleton" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -226,18 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/DecreaserThread.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/Surname.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/util/MyCounter.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/SurnameIncreaser.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/util/PersonIncreasing.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/Threads/NameIncreaser.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/LamdaInterface.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/Smth.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/LamdaInt.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/LambdaNumbers.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/LambdaDouble.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/LambdaPrint.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaPrint.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaDouble.java" />
@@ -277,6 +304,18 @@
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/ReverseWord.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/PrintFigures.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/test/java/mathematic/NwdAndNwwTest.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/RentingInterface.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/SmsService.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/RentService.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/interfaces/Rentable.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Main.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Scooter.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Trailer.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Car.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/EmailServices.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FactorialTest.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Factorial.java" />
       </list>
     </option>
   </component>
@@ -287,11 +326,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1976" />
-    <option name="y" value="484" />
-    <option name="width" value="1936" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1080" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -374,16 +413,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="fibonnaci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
               <item name="mathematic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -391,16 +420,6 @@
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
               <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -410,15 +429,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fibonacci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
@@ -428,47 +438,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mathematic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="collectionexercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
@@ -482,7 +451,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562930546864" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563010794533" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../07.07/sda-java-basics" />
@@ -493,13 +462,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sda.mathematic" />
       <recent name="" />
       <recent name="vehicles" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\konrad\Desktop\course\codeexercises\stream\src\main" />
-      <recent name="C:\Users\konrad\Desktop\course\codeexercises" />
-      <recent name="C:\Users\konrad\Desktop\course\codeexercises\arrays\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="vehicles" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="vehicles" />
@@ -507,8 +475,10 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="vehicles" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises\stream\src\main" />
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises" />
+      <recent name="C:\Users\konrad\Desktop\course\codeexercises\arrays\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -523,7 +493,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FactorialTest.shouldReturnCorrectValue">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.Main" />
       <module name="alhorithms" />
@@ -537,49 +507,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldFiguresTest.shouldReturnCorrectValueOnSquareField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alhorithms" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceexample.Main" />
+      <module name="collection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathematic.*" />
+          <option name="PATTERN" value="interfaceexample.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mathematic" />
-      <option name="MAIN_CLASS_NAME" value="mathematic.FieldFiguresTest" />
-      <option name="METHOD_NAME" value="shouldReturnCorrectValueOnSquareField" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTest.shouldReturnCorrectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alhorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.mathematic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sda.mathematic" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.mathematic.FactorialTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldFiguresTest.shouldReturnCorrectValueOnTriangleField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialTest.shouldReturnCorrectValueForZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alhorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathematic.*" />
+          <option name="PATTERN" value="com.sda.mathematic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mathematic" />
-      <option name="MAIN_CLASS_NAME" value="mathematic.FieldFiguresTest" />
-      <option name="METHOD_NAME" value="shouldReturnCorrectValueOnTriangleField" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alhorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mathematic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mathematic" />
-      <option name="MAIN_CLASS_NAME" value="mathematic.NwdAndNwwTest" />
-      <option name="METHOD_NAME" value="shouldReturnCorrectNwd" />
+      <option name="PACKAGE_NAME" value="com.sda.mathematic" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.mathematic.FactorialTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectValueForZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -602,19 +569,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FieldFiguresTest.shouldReturnCorrectValueOnSquareField" />
-      <item itemvalue="JUnit.FieldFiguresTest.shouldReturnCorrectValueOnTriangleField" />
-      <item itemvalue="JUnit.NwdAndNwwTest.shouldReturnCorrectNwd" />
       <item itemvalue="JUnit.NwdAndNwwTest.shouldReturnCorrectNwd2" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.FactorialTest.shouldReturnCorrectValueForZero" />
+      <item itemvalue="JUnit.FactorialTest.shouldReturnCorrectValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactorialTest.shouldReturnCorrectValue" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FactorialTest.shouldReturnCorrectValueForZero" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.NwdAndNwwTest.shouldReturnCorrectNwd2" />
-        <item itemvalue="JUnit.NwdAndNwwTest.shouldReturnCorrectNwd" />
-        <item itemvalue="JUnit.FieldFiguresTest.shouldReturnCorrectValueOnTriangleField" />
-        <item itemvalue="JUnit.FieldFiguresTest.shouldReturnCorrectValueOnSquareField" />
       </list>
     </recent_temporary>
   </component>
@@ -640,35 +607,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd - 2019.07.11 at 13h 47m 09s.xml">
-      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd - 2019.07.11 at 13h 48m 30s.xml">
-      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd - 2019.07.11 at 13h 49m 03s.xml">
-      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 49m 29s.xml">
-      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 50m 44s.xml">
-      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 51m 01s.xml">
-      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 51m 15s.xml">
-      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 51m 25s.xml">
-      <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 51m 55s.xml">
       <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="NwdAndNwwTest_shouldReturnCorrectNwd2 - 2019.07.11 at 13h 53m 43s.xml">
       <configuration name="NwdAndNwwTest.shouldReturnCorrectNwd2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactorialTest_shouldReturnCorrectValueForZero - 2019.07.13 at 11h 29m 44s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValueForZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactorialTest_shouldReturnCorrectValue - 2019.07.13 at 11h 30m 06s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactorialTest_shouldReturnCorrectValue - 2019.07.13 at 11h 30m 15s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactorialTest_shouldReturnCorrectValue - 2019.07.13 at 11h 31m 20s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactorialTest_shouldReturnCorrectValue - 2019.07.13 at 11h 32m 54s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactorialTest_shouldReturnCorrectValue - 2019.07.13 at 11h 34m 23s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactorialTest_shouldReturnCorrectValue - 2019.07.13 at 11h 34m 48s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactorialTest_shouldReturnCorrectValue - 2019.07.13 at 11h 35m 46s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -681,7 +648,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1976" y="484" width="1936" height="1080" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -689,15 +656,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.31576145" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.31576145" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" weight="0.2726316" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" weight="0.2846154" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5484558" side_tool="true" weight="0.33916083" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45101172" weight="0.31789473" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45101172" weight="0.3174946" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4515442" visible="true" weight="0.41578948" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4515442" visible="true" weight="0.40820736" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38509318" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -721,84 +688,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="concurrency join and sleep" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrays/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/Threads/DecreaserThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/LamdaInterface.java" />
-    <entry file="file://$PROJECT_DIR$/stream/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LamdaInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="3" selection-start-column="44" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/Smth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaDouble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/GenericInterfaceOfAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream/src/main/java/lamdaInterfaces/LambdaPrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1002,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/mathematic/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1036,27 +918,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java">
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/ReverseWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/PrintFigures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/mathematic/NwdAndNwwTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/ReverseWord.java">
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="459">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1292" column="29" selection-start-line="1292" selection-start-column="29" selection-end-line="1292" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/RentingInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/interfaces/Rentable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/SmsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/Scooter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/Trailer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/EmailServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/RentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/interfaceexample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1070,10 +1073,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/PrintFigures.java">
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FactorialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
