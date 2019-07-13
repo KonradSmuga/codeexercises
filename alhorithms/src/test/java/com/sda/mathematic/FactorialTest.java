@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class FactorialTest {
 
     @Test
-    public void shouldReturnCorrectValueForZero(){
+    public void shouldReturnCorrectValueForZero() {
 
         //given
 
@@ -19,7 +19,7 @@ class FactorialTest {
     }
 
     @Test
-    public void shouldReturnCorrectValue(){
+    public void shouldReturnCorrectValue() {
 
         //given
 
@@ -31,7 +31,7 @@ class FactorialTest {
 
 
     @Test
-    public void shouldReturnCorrectValueForOne(){
+    public void shouldReturnCorrectValueForOne() {
 
         //given
 
@@ -43,7 +43,7 @@ class FactorialTest {
 
 
     @Test
-    public void shouldReturnCorrectValueForPow(){
+    public void shouldReturnCorrectValueForPow() {
 
         //given
 
@@ -55,7 +55,7 @@ class FactorialTest {
 
 
     @Test
-    public void shouldReturnCorrectValueFor(){
+    public void shouldReturnCorrectValueFor() {
 
         //when & then
         double recurention = Factorial.recurention(4);
