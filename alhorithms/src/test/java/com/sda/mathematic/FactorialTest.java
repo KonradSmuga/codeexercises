@@ -42,4 +42,24 @@ class FactorialTest {
     }
 
 
+    @Test
+    public void shouldReturnCorrectValueForPow(){
+
+        //given
+
+        //when & then
+        Factorial.factorialSquareI(5);
+
+
+    }
+
+
+    @Test
+    public void shouldReturnCorrectValueFor(){
+
+        //when & then
+        double recurention = Factorial.recurention(4);
+        Assert.assertEquals(0.25, recurention, 0);
+    }
+
 }
