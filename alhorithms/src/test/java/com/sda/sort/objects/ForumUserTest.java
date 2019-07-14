@@ -20,11 +20,11 @@ class ForumUserTest {
         userList = new ArrayList<>();
         userList.add(new ForumUser("Konrad", "Smuga", 10));
         userList.add(new ForumUser("Matylda", "Kowalska", 121));
-        userList.add(new ForumUser("Dawid", "Bronek", 121));
-        userList.add(new ForumUser("Anna", "Zarebska", 10));
-        userList.add(new ForumUser("Matylda", "Kowalska", 121));
-        userList.add(new ForumUser("Dawid", "Bronek", 121));
-        userList.add(new ForumUser("Anna", "Smuga", 10));
+        userList.add(new ForumUser("Dawid", "Bronek", 300));
+        userList.add(new ForumUser("Anna", "Zarebska", 24));
+        userList.add(new ForumUser("Matylda", "Kowalska", 679));
+        userList.add(new ForumUser("Dawid", "Bronek", 621));
+        userList.add(new ForumUser("Anna", "Smuga", 2));
 
     }
 
@@ -58,7 +58,7 @@ class ForumUserTest {
             public int compare(ForumUser o1, ForumUser o2) {
                 int firstNameResult = o1.getName().compareTo(o2.getName());
                 if (firstNameResult == 0) {
-                 return    o1.getSurname().compareTo(o2.getSurname());
+                    return o1.getSurname().compareTo(o2.getSurname());
                 }
                 return firstNameResult;
             }
@@ -68,4 +68,17 @@ class ForumUserTest {
         Assert.assertEquals(userList.get(0).getName(), "Anna");
         Assert.assertEquals(userList.get(0).getSurname(), "Smuga");
     }
+
+    @Test
+    public void shouldSortByPostsUsingStaticComparatorFromClass() {
+
+        // given & when
+        Collections.sort(userList, ForumUser.getPostComparator() );
+
+        //then
+        Assert.assertEquals(userList.get(0).getPostCount(), 2);
+        Assert.assertEquals(userList.get(6).getPostCount(), 679);
+    }
+
+
 }
