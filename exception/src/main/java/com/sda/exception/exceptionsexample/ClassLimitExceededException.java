@@ -6,4 +6,7 @@ public class ClassLimitExceededException extends Exception {
         super(message);
     }
 
+    public ClassLimitExceededException() {
+
+    }
 }

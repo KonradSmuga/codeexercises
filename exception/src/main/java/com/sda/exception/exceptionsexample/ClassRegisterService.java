@@ -4,7 +4,7 @@ public class ClassRegisterService {
 
     public void signStudent() throws ClassLimitExceededException{
 
-        throw new ClassLimitExceededException("Example message");
+        throw new ClassLimitExceededException();
 
     }
 
