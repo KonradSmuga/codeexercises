@@ -60,9 +60,7 @@ public class SdaListImplTest {
 
         //given
         SdaList sdaList = new SdaListImpl();
-        //when
-        sdaList.isEmpty();
-        //then
+        //when & then
         Assert.assertEquals(true, sdaList.isEmpty());
 
     }
