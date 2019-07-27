@@ -6,9 +6,10 @@ public class SdaListImpl implements SdaList {
     @Override
     public void add(int input) {
        Node node1 = new Node();
-        if (head == null){
 
+        if (head == null){
             head = node1;
+            node1.value = input;
 
         }
     }
