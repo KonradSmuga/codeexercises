@@ -5,19 +5,30 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class SdaListImplTest {
 
-
     @Test
     public void isAddingObjectToList() {
 
         //given
         SdaList sdaList = new SdaListImpl();
-        //wjen
+        //when
         sdaList.add(2);
         sdaList.add(3);
-
         //then
         Assert.assertEquals(2, sdaList.size());
     }
+
+    @Test
+    public void isAddingObjectAtTheEndOfTheList() {
+
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(2);
+        sdaList.add(3);
+        sdaList.add(6);
+        //when & then
+        Assert.assertEquals(6,sdaList.get(3));
+    }
+
 
     @Test
     public void isReturningSizeForEmptyList() {
@@ -48,15 +59,14 @@ public class SdaListImplTest {
 
         //given
         SdaList sdaList = new SdaListImpl();
-        //when
         sdaList.add(2);
         sdaList.add(3);
-        //then
+        //when & then
         Assert.assertEquals(true, sdaList.contains(3));
     }
 
     @Test
-    public void isReturningTrueIfSizeIsEmpty() {
+    public void isReturningTrueIfListIsEmpty() {
 
         //given
         SdaList sdaList = new SdaListImpl();
@@ -66,16 +76,16 @@ public class SdaListImplTest {
     }
 
     @Test
-    public void isReturningFalseIfSizeIsNotEmpty() {
+    public void isReturningFalseIfListIsNotEmpty() {
 
         //given
         SdaList sdaList = new SdaListImpl();
         sdaList.add(2);
         sdaList.add(4);
         //when
-        sdaList.isEmpty();
+        boolean result = sdaList.isEmpty();
         //then
-        Assert.assertEquals(false, sdaList.isEmpty());
+        Assert.assertEquals(false, result);
 
     }
 
