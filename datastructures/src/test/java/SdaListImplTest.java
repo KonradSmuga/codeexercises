@@ -6,6 +6,17 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SdaListImplTest {
 
     @Test
+    public void shouldAddvalueToEmptyList(){
+        //given
+        SdaList sdaList = new SdaListImpl();
+        //when
+        sdaList.add(2);
+        //then
+        Assert.assertEquals(sdaList.isEmpty(), false);
+    }
+
+
+    @Test
     public void isAddingObjectToList() {
 
         //given
@@ -26,7 +37,7 @@ public class SdaListImplTest {
         sdaList.add(3);
         sdaList.add(6);
         //when & then
-        Assert.assertEquals(6,sdaList.get(2));
+        Assert.assertEquals(6, sdaList.get(2));
     }
 
 
@@ -90,7 +101,6 @@ public class SdaListImplTest {
     }
 
 
-
     @Test
     public void isClearingListIfSizeIsNotEmpty() {
 
@@ -99,9 +109,10 @@ public class SdaListImplTest {
         sdaList.add(2);
         sdaList.add(4);
         //when
-       sdaList.clear();
+        sdaList.clear();
         //then
         Assert.assertEquals(0, sdaList.size());
-
     }
+
+
 }

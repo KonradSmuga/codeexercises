@@ -1,9 +1,16 @@
 public class SdaListImpl implements SdaList {
 
+    private Node head;
+
 
     @Override
     public void add(int input) {
+       Node node1 = new Node();
+        if (head == null){
 
+            head = node1;
+
+        }
     }
 
     @Override
@@ -13,6 +20,7 @@ public class SdaListImpl implements SdaList {
 
     @Override
     public boolean remove(int index) {
+
         return false;
     }
 
@@ -28,7 +36,7 @@ public class SdaListImpl implements SdaList {
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return head == null;
     }
 
     @Override
@@ -37,4 +45,11 @@ public class SdaListImpl implements SdaList {
     }
 
 
+    private class Node {
+        private int value;
+        private Node next;
+
+
+
+    }
 }
