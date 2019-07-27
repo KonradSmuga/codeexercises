@@ -26,7 +26,7 @@ public class SdaListImplTest {
         sdaList.add(3);
         sdaList.add(6);
         //when & then
-        Assert.assertEquals(6,sdaList.get(3));
+        Assert.assertEquals(6,sdaList.get(2));
     }
 
 
