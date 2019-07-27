@@ -1,153 +1,248 @@
-import org.junit.Assert;
-import org.junit.jupiter.api.Assertions;
+import List.SdaList;
+import List.SdaListImpl;
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class SdaListImplTest {
 
+
     @Test
-    public void shouldAddvalueToEmptyList() {
+    void shouldAddValueToEmptyList() {
         //given
         SdaList sdaList = new SdaListImpl();
+
         //when
         sdaList.add(2);
+
         //then
-        Assert.assertEquals(sdaList.isEmpty(), false);
+        assertThat(sdaList.isEmpty()).isFalse();
     }
 
-
     @Test
-    public void isAddingObjectToList() {
-
+    void shouldAddValueToList() {
         //given
         SdaList sdaList = new SdaListImpl();
+
         //when
         sdaList.add(2);
         sdaList.add(3);
+
         //then
-        Assert.assertEquals(2, sdaList.size());
+        assertThat(sdaList.size()).isEqualTo(2);
     }
 
     @Test
-    public void isAddingObjectAtTheEndOfTheList() {
-
+    void shouldAddValueAtTheEndOfTheList() {
         //given
         SdaList sdaList = new SdaListImpl();
         sdaList.add(2);
         sdaList.add(3);
         sdaList.add(6);
-        //when & then
-        Assert.assertEquals(6, sdaList.get(2));
-    }
-
-
-    @Test
-    public void isReturningSizeForEmptyList() {
-
-        //given
-        SdaList sdaList = new SdaListImpl();
 
         //when & then
-        Assert.assertEquals(sdaList.size(), 0);
+        assertThat(sdaList.get(2)).isEqualTo(6);
     }
 
     @Test
-    public void isRemovingObjectFromList() {
-
-        //given
-        SdaList sdaList = new SdaListImpl();
-        //when
-        sdaList.add(2);
-        sdaList.add(3);
-        sdaList.remove(2);
-        //then
-        Assert.assertEquals(1, sdaList.size());
-        Assert.assertEquals(false, sdaList.get(2));
-    }
-
-    @Test
-    public void isReturningObjectFromList() {
-
+    void shouldReturnFirstElement() {
         //given
         SdaList sdaList = new SdaListImpl();
         sdaList.add(2);
         sdaList.add(3);
+        sdaList.add(6);
+
         //when & then
-        Assert.assertEquals(true, sdaList.contains(3));
+        assertThat(sdaList.get(0)).isEqualTo(2);
     }
 
     @Test
-    public void isReturningTrueIfListIsEmpty() {
-
-        //given
-        SdaList sdaList = new SdaListImpl();
-        //when & then
-        Assert.assertEquals(true, sdaList.isEmpty());
-
-    }
-
-    @Test
-    public void isReturningFalseIfListIsNotEmpty() {
-
+    void shouldReturnElement() {
         //given
         SdaList sdaList = new SdaListImpl();
         sdaList.add(2);
-        sdaList.add(4);
-        //when
-        boolean result = sdaList.isEmpty();
-        //then
-        Assert.assertEquals(false, result);
-
-    }
-
-
-    @Test
-    public void isClearingListIfSizeIsNotEmpty() {
-
-        //given
-        SdaList sdaList = new SdaListImpl();
-        sdaList.add(2);
-        sdaList.add(4);
-        //when
-        sdaList.clear();
-        //then
-        Assert.assertEquals(0, sdaList.size());
-    }
-
-    @Test
-    public void isRemovingFirstElement() {
-
-        //given
-        SdaList sdaList = new SdaListImpl();
-        sdaList.add(2);
-        sdaList.add(4);
         sdaList.add(3);
+        sdaList.add(6);
+        sdaList.add(2);
+
+        //when & then
+        assertThat(sdaList.get(1)).isEqualTo(3);
+    }
+
+    @Test
+    void shouldReturnLastElement() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(2);
+        sdaList.add(3);
+        sdaList.add(6);
+
+        //when & then
+        assertThat(sdaList.get(2)).isEqualTo(6);
+    }
+
+    @Test
+    void shouldThrowIndexOutOfBoundException() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(2);
+        sdaList.add(3);
+
+        //when & then
+        assertThrows(IndexOutOfBoundsException.class, () -> {
+            sdaList.get(7);
+        });
+    }
+
+    @Test
+    void shouldRemoveFirstElement() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(1);
+        sdaList.add(3);
+        sdaList.add(6);
+        sdaList.add(4);
+
         //when
         sdaList.remove(0);
-        //then
-        Assert.assertEquals(2, sdaList.size());
-    }
-    @Test
-    public void isRemovingElement() {
 
+        //then
+        assertThat(sdaList.get(0)).isEqualTo(3);
+    }
+
+    @Test
+    void shouldRemoveValue() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(1);
+        sdaList.add(3);
+        sdaList.add(6);
+        sdaList.add(4);
+
+        //when
+        sdaList.remove(2);
+
+        //then
+        assertThat(sdaList.get(2)).isEqualTo(4);
+    }
+
+    @Test
+    void shouldReturnRemoveResult() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(1);
+        sdaList.add(3);
+
+        //when
+        boolean result = sdaList.remove(1);
+
+        //then
+        assertThat(result).isTrue();
+    }
+
+    @Test
+    void shouldReturnFalseWhenValueIsNotPresent() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(1);
+        sdaList.add(3);
+
+        //when
+        boolean result = sdaList.remove(5);
+
+        //then
+        assertThat(result).isFalse();
+    }
+
+    @Test
+    void shouldClearList() {
         //given
         SdaList sdaList = new SdaListImpl();
         sdaList.add(2);
         sdaList.add(4);
-        sdaList.add(3);
-        sdaList.add(4);
+
         //when
-        sdaList.remove(2);
+        sdaList.clear();
+
         //then
-        Assert.assertEquals(3, sdaList.size());
+        assertThat(sdaList.size()).isEqualTo(0);
     }
+
+    @Test
+    void shouldClearEmptyList() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+
+        //when
+        sdaList.clear();
+
+        //then
+        assertThat(sdaList.size()).isEqualTo(0);
+    }
+
+    @Test
+    void shouldReturnSizeForEmptyList() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+
+        //when & then
+        assertThat(sdaList.size()).isEqualTo(0);
+    }
+
+    @Test
+    void shouldReturnSize() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(5);
+        sdaList.add(2);
+        sdaList.add(15);
+
+        //when & then
+        assertThat(sdaList.size()).isEqualTo(3);
+    }
+
+    @Test
+    void shouldFindElementInList() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(5);
+        sdaList.add(2);
+        sdaList.add(1);
+
+        //when & then
+        assertThat(sdaList.contains(5)).isTrue();
+    }
+
+    @Test
+    void shouldNotFindElementInList() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(5);
+
+        //when & then
+        assertThat(sdaList.contains(12)).isFalse();
+    }
+
+    @Test
+    void shouldReturnTrueIfListIsEmpty() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+
+        //when & then
+        assertThat(sdaList.isEmpty()).isTrue();
+    }
+
+    @Test
+    void shouldReturnFalseIfListIsNotEmpty() {
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(2);
+        sdaList.add(4);
+
+        //when & then
+        assertThat(sdaList.isEmpty()).isFalse();
+    }
+
 }
-//    @Test
-//  public void  shouldThrowIndexOutOfBOundException(){
-//        final SdaList sdaList = new SdaListImpl();
-//        sdaList.add(2);
-//        sdaList.add(3);
-//
-//        });
-//    }
-//}
+

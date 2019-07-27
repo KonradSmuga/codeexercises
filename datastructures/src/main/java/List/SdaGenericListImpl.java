@@ -1,41 +1,49 @@
-public class SdaListImpl implements SdaList {
+package List;
+
+public class SdaGenericListImpl<T> implements SdaGenericList<T> {
 
     private Node head;
 
-
     @Override
-    public void add(int input) {
-        Node node1 = new Node(input);
+    public void add(T value) {
+        Node node = new Node(value);
 
-        if (head == null) {
-            head = node1;
+        if (isEmpty()) {
+            head = node;
         } else {
+            //zapisuje pierwszy element do tmp
             Node tmp = head;
+
             while (tmp.next != null) {
+                //wiemy ze tmp ma nastepny element
                 tmp = tmp.next;
             }
-            tmp.next = node1;
+            //w tmp jest ostatni element
+            tmp.next = node;
         }
     }
 
     @Override
-    public int get(int index) {
+    public T get(int index) {
         int counter = 0;
         Node tmp = head;
-        while (tmp.next != null) {
+
+        while (tmp != null) {
             if (counter == index) {
                 return tmp.value;
             }
+
             tmp = tmp.next;
             counter++;
         }
+
         throw new IndexOutOfBoundsException();
     }
 
     @Override
     public boolean remove(int index) {
-        if(isEmpty()){
-            return  false;
+        if (isEmpty()) {
+            return false;
         }
 
         if (index == 0) {
@@ -44,40 +52,51 @@ public class SdaListImpl implements SdaList {
         } else {
             Node tmp = head;
             int counter = 0;
+
             while (tmp != null) {
-                counter ++;
+                counter++;
+
                 if (counter == index) {
-                   tmp.next = tmp.next.next;
-                   return  true;
+                    tmp.next = tmp.next.next;
+                    return true;
                 }
+
                 tmp = tmp.next;
             }
         }
+
         return false;
     }
 
     @Override
-    public int size() {
-        int size = 0;
-        Node tmp = head;
-        while (tmp != null) {
-            size++;
-            tmp = tmp.next;
-        }
-        return size;
+    public void clear() {
+        head = null;
     }
 
     @Override
-    public boolean contains(int value) {
+    public int size() {
+        int counter = 0;
         Node tmp = head;
 
         while (tmp != null) {
-            if (tmp.value == value) {
+            counter++;
+            tmp = tmp.next;
+        }
+
+        return counter;
+    }
+
+    @Override
+    public boolean contains(T value) {
+        Node tmp = head;
+
+        while (tmp != null) {
+            if (tmp.value.equals(value)) {
                 return true;
             }
             tmp = tmp.next;
-
         }
+
         return false;
     }
 
@@ -86,17 +105,12 @@ public class SdaListImpl implements SdaList {
         return head == null;
     }
 
-    @Override
-    public void clear() {
-        head = null;
-    }
-
-
     private class Node {
-        private int value;
+
+        private T value;
         private Node next;
 
-        private Node(int value) {
+        private Node(T value) {
             this.value = value;
         }
     }

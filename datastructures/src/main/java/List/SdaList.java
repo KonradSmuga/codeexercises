@@ -1,6 +1,8 @@
-public interface SdaList {
+package List;
 
-    void add(int input);
+public interface SdaList{
+
+     void add(int input);
 
     int get(int index);
 
