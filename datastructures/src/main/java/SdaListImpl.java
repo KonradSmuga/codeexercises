@@ -30,4 +30,11 @@ public class SdaListImpl implements SdaList {
     public boolean isEmpty() {
         return false;
     }
+
+    @Override
+    public void clear() {
+
+    }
+
+
 }

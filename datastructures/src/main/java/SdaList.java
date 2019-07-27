@@ -12,4 +12,5 @@ public interface SdaList {
 
     boolean isEmpty();
 
+    void clear();
 }

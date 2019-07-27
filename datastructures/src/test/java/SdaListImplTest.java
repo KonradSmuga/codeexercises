@@ -89,4 +89,19 @@ public class SdaListImplTest {
 
     }
 
+
+
+    @Test
+    public void isClearingListIfSizeIsNotEmpty() {
+
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(2);
+        sdaList.add(4);
+        //when
+       sdaList.clear();
+        //then
+        Assert.assertEquals(0, sdaList.size());
+
+    }
 }
