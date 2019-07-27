@@ -5,33 +5,79 @@ public class SdaListImpl implements SdaList {
 
     @Override
     public void add(int input) {
-       Node node1 = new Node();
+        Node node1 = new Node(input);
 
-        if (head == null){
+        if (head == null) {
             head = node1;
-            node1.value = input;
-
+        } else {
+            Node tmp = head;
+            while (tmp.next != null) {
+                tmp = tmp.next;
+            }
+            tmp.next = node1;
         }
     }
 
     @Override
     public int get(int index) {
-        return 0;
+        int counter = 0;
+        Node tmp = head;
+        while (tmp.next != null) {
+            if (counter == index) {
+                return tmp.value;
+            }
+            tmp = tmp.next;
+            counter++;
+        }
+        throw new IndexOutOfBoundsException();
     }
 
     @Override
     public boolean remove(int index) {
+        if(isEmpty()){
+            return  false;
+        }
 
+        if (index == 0) {
+            head = head.next;
+            return true;
+        } else {
+            Node tmp = head;
+            int counter = 0;
+            while (tmp != null) {
+                counter ++;
+                if (counter == index) {
+                   tmp.next = tmp.next.next;
+                   return  true;
+                }
+                tmp = tmp.next;
+            }
+        }
         return false;
     }
 
     @Override
     public int size() {
-        return 0;
+        int size = 0;
+        Node tmp = head;
+        while (tmp != null) {
+            size++;
+            tmp = tmp.next;
+        }
+        return size;
     }
 
     @Override
     public boolean contains(int value) {
+        Node tmp = head;
+
+        while (tmp != null) {
+            if (tmp.value == value) {
+                return true;
+            }
+            tmp = tmp.next;
+
+        }
         return false;
     }
 
@@ -42,7 +88,7 @@ public class SdaListImpl implements SdaList {
 
     @Override
     public void clear() {
-
+        head = null;
     }
 
 
@@ -50,7 +96,8 @@ public class SdaListImpl implements SdaList {
         private int value;
         private Node next;
 
-
-
+        private Node(int value) {
+            this.value = value;
+        }
     }
 }

@@ -1,12 +1,12 @@
 import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 public class SdaListImplTest {
 
     @Test
-    public void shouldAddvalueToEmptyList(){
+    public void shouldAddvalueToEmptyList() {
         //given
         SdaList sdaList = new SdaListImpl();
         //when
@@ -114,5 +114,40 @@ public class SdaListImplTest {
         Assert.assertEquals(0, sdaList.size());
     }
 
+    @Test
+    public void isRemovingFirstElement() {
 
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(2);
+        sdaList.add(4);
+        sdaList.add(3);
+        //when
+        sdaList.remove(0);
+        //then
+        Assert.assertEquals(2, sdaList.size());
+    }
+    @Test
+    public void isRemovingElement() {
+
+        //given
+        SdaList sdaList = new SdaListImpl();
+        sdaList.add(2);
+        sdaList.add(4);
+        sdaList.add(3);
+        sdaList.add(4);
+        //when
+        sdaList.remove(2);
+        //then
+        Assert.assertEquals(3, sdaList.size());
+    }
 }
+//    @Test
+//  public void  shouldThrowIndexOutOfBOundException(){
+//        final SdaList sdaList = new SdaListImpl();
+//        sdaList.add(2);
+//        sdaList.add(3);
+//
+//        });
+//    }
+//}

@@ -9,16 +9,11 @@
         <module name="alhorithms" />
         <module name="arrays" />
         <module name="concurrency" />
+        <module name="datastructures" />
         <module name="designpatterns" />
         <module name="exception" />
         <module name="learningawesometest" />
         <module name="stream" />
-      </profile>
-      <profile name="Annotation profile for code-exercises" enabled="true">
-        <sourceOutputDir name="../collection/datastructures/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../collection/datastructures/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="datastructures" />
       </profile>
     </annotationProcessing>
   </component>
