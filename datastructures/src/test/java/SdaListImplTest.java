@@ -77,7 +77,7 @@ public class SdaListImplTest {
         //when
         sdaList.isEmpty();
         //then
-        Assert.assertEquals(true, sdaList.isEmpty());
+        Assert.assertEquals(false, sdaList.isEmpty());
 
     }
 

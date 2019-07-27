@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/src/main/java/SdaList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/src/main/java/SdaListImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/src/test/java/SdaListImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collection/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,14 +75,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="151" />
-          <entry key="java" value="30799" />
+          <entry key="java" value="30872" />
           <entry key="txt" value="70" />
           <entry key="xml" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30799" />
+          <entry key="JAVA" value="30872" />
           <entry key="PLAIN_TEXT" value="221" />
           <entry key="XML" value="62" />
         </counts>
@@ -126,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/SdaList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -168,8 +160,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datastructures/src/test/java/SdaListImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,7 +419,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564214799261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564215312999" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -640,17 +632,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="101" width="1889" height="939" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.34898964" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.34898964" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" visible="true" weight="0.22126082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" visible="true" weight="0.22126082" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5484558" side_tool="true" weight="0.33916083" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45101172" weight="0.31573159" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -1041,6 +1032,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/SdaList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/SdaListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1060,17 +1058,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/SdaList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datastructures/src/test/java/SdaListImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        <state relative-caret-position="345">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
