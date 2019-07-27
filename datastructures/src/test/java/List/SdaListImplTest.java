@@ -1,3 +1,5 @@
+package List;
+
 import List.SdaList;
 import List.SdaListImpl;
 import org.junit.jupiter.api.Test;
@@ -15,6 +17,7 @@ public class SdaListImplTest {
 
         //when
         sdaList.add(2);
+
 
         //then
         assertThat(sdaList.isEmpty()).isFalse();
