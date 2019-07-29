@@ -3,6 +3,9 @@ package com.sda;
 import com.sda.Strings.PrintFigures;
 import com.sda.Strings.ReverseWord;
 import com.sda.mathematic.Factorial;
+import com.sda.mathematic.FirstNumber;
+
+import java.util.List;
 
 public class Main {
 
@@ -21,6 +24,11 @@ public class Main {
 
 
         System.out.println(Factorial.factorialSquareI(4));
+
+        FirstNumber firstNumber = new FirstNumber();
+
+        List<Integer> integers = firstNumber.generatePrimeNumbers(30);
+        System.out.println(integers);
     }
 
 

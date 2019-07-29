@@ -16,5 +16,8 @@
         <module name="stream" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="datastructures" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

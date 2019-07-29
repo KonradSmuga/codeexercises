@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/datastructures/src/main/java/List/SdaGenericList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/src/main/java/List/SdaGenericListImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/src/main/java/generics/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/src/main/java/generics/GenericExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FirstNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FirstNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructures/datastructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/main/java/SdaList.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/main/java/List/SdaList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/main/java/SdaListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/main/java/List/SdaListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/test/java/SdaListImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/test/java/SdaListImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/target/classes/SdaListImpl$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/target/classes/SdaListImpl$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/target/classes/SdaListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/target/classes/SdaListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/target/test-classes/SdaListImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/target/test-classes/SdaListImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,33 +67,33 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="iml" value="3" />
-          <entry key="java" value="205" />
+          <entry key="java" value="215" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="16" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="205" />
+          <entry key="JAVA" value="215" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="16" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="151" />
-          <entry key="java" value="34282" />
+          <entry key="java" value="36071" />
           <entry key="txt" value="70" />
-          <entry key="xml" value="62" />
+          <entry key="xml" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="34282" />
+          <entry key="JAVA" value="36071" />
           <entry key="PLAIN_TEXT" value="221" />
-          <entry key="XML" value="62" />
+          <entry key="XML" value="64" />
         </counts>
       </usages-collector>
     </session>
@@ -106,107 +104,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructures/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="445">
+              <caret line="52" selection-start-line="51" selection-start-column="31" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/List/SdaList.java">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FirstNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/List/SdaGenericList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/List/SdaListImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-930">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding>
-                <element signature="e#1441#1442#0" expanded="true" />
-                <element signature="e#1468#1469#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-                <element signature="e#2019#2020#0" expanded="true" />
-                <element signature="e#2135#2136#0" expanded="true" />
-                <element signature="e#2177#2178#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/List/SdaGenericListImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1127">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#1464#1465#0" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#2012#2013#0" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
-                <element signature="e#2159#2160#0" expanded="true" />
-                <element signature="e#2201#2202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/generics/Box.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/generics/GenericExample.java">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructures/src/test/java/SdaListImplTest.java">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FactorialTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/ArrayOperations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/RecursionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FirstNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,10 +182,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FieldsFigures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alhorithms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -229,9 +205,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -256,11 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/ReverseWord.java" />
-        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Strings/PrintFigures.java" />
-        <option value="$PROJECT_DIR$/alhorithms/src/test/java/mathematic/NwdAndNwwTest.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/RentingInterface.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/SmsService.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/RentService.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/interfaces/Rentable.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/interfaceexample/Main.java" />
@@ -276,10 +247,8 @@
         <option value="$PROJECT_DIR$/alhorithms/src/test/java/fibonacci/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/sort/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/test/java/BubbleSortTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/alhorithms/src/test/java/sort/BubbleSortTest.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/sort/Books.java" />
         <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/sda/exception/exceptionsexample/ClassRegisterService.java" />
@@ -307,6 +276,13 @@
         <option value="$PROJECT_DIR$/datastructures/src/main/java/List/SdaListImpl.java" />
         <option value="$PROJECT_DIR$/datastructures/src/main/java/List/SdaList.java" />
         <option value="$PROJECT_DIR$/datastructures/src/main/java/List/SdaGenericList.java" />
+        <option value="$PROJECT_DIR$/datastructures/src/test/java/List/SdaListImplTest.java" />
+        <option value="$PROJECT_DIR$/datastructures/src/test/java/List/SdaGenericListImplTest.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FirstNumberTest.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" />
+        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FirstNumber.java" />
       </list>
     </option>
   </component>
@@ -317,11 +293,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="194" />
-    <option name="y" value="9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1911" />
+    <option name="y" value="707" />
     <option name="width" value="1893" />
-    <option name="height" value="983" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -363,58 +339,59 @@
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="mathematic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -422,43 +399,21 @@
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="alhorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="mathematic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -469,7 +424,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/datastructures/src/test/java/List/SdaListImplTest.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564233571574" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564390941320" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -481,19 +436,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sda.mathematic" />
+      <recent name="List" />
       <recent name="" />
       <recent name="com.sda.search" />
       <recent name="com.sda.sort.objects" />
-      <recent name="com.sda.mathematic" />
-      <recent name="vehicles" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="vehicles" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sda.mathematic" />
+      <recent name="List" />
       <recent name="" />
       <recent name="com.sda.sort" />
-      <recent name="com.sda.mathematic" />
       <recent name="vehicles" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -517,13 +473,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SdaGenericListImplTest.shouldAddValueToEmptyList">
-    <configuration name="GenericExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericExample" />
-      <module name="datastructures" />
+  <component name="RunManager" selected="JUnit.FirstNumberTest.shouldReturnFirstNumber">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.Main" />
+      <module name="alhorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="com.sda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -531,16 +487,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SdaGenericListImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures" />
+    <configuration name="FactorialTest.shouldReturnCorrectValueForZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alhorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="List.*" />
+          <option name="PATTERN" value="com.sda.mathematic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="List" />
-      <option name="MAIN_CLASS_NAME" value="List.SdaGenericListImplTest" />
+      <option name="PACKAGE_NAME" value="com.sda.mathematic" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.mathematic.FactorialTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectValueForZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alhorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.mathematic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sda.mathematic" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.mathematic.FirstNumberTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstNumberTest.shouldReturnFirstNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alhorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.mathematic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sda.mathematic" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.mathematic.FirstNumberTest" />
+      <option name="METHOD_NAME" value="shouldReturnFirstNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -561,36 +549,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SdaListImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures" />
-      <option name="PACKAGE_NAME" value="List" />
-      <option name="MAIN_CLASS_NAME" value="List.SdaListImplTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SdaListTiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SdaListTiTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.SdaListImplTest" />
-      <item itemvalue="JUnit.SdaListTiTest" />
-      <item itemvalue="Application.GenericExample" />
-      <item itemvalue="JUnit.SdaGenericListImplTest" />
       <item itemvalue="JUnit.SdaGenericListImplTest.shouldAddValueToEmptyList" />
+      <item itemvalue="JUnit.FirstNumberTest.shouldReturnFirstNumber" />
+      <item itemvalue="JUnit.FactorialTest.shouldReturnCorrectValueForZero" />
+      <item itemvalue="JUnit.FirstNumberTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstNumberTest.shouldReturnFirstNumber" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FirstNumberTest" />
+        <item itemvalue="JUnit.FactorialTest.shouldReturnCorrectValueForZero" />
         <item itemvalue="JUnit.SdaGenericListImplTest.shouldAddValueToEmptyList" />
-        <item itemvalue="JUnit.SdaGenericListImplTest" />
-        <item itemvalue="JUnit.SdaListImplTest" />
-        <item itemvalue="Application.GenericExample" />
-        <item itemvalue="JUnit.SdaListTiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -623,35 +595,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SdaListImplTest_isRemovingObjectFromList - 2019.07.27 at 14h 15m 15s.xml">
-      <configuration name="SdaListImplTest.isRemovingObjectFromList" configurationId="JUnit" />
+    <history-entry file="SdaGenericListImplTest - 2019.07.27 at 15h 19m 35s.xml">
+      <configuration name="SdaGenericListImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListImplTest_isRemovingObjectFromList - 2019.07.27 at 14h 18m 55s.xml">
-      <configuration name="SdaListImplTest.isRemovingObjectFromList" configurationId="JUnit" />
+    <history-entry file="SdaGenericListImplTest_shouldAddValueToEmptyList - 2019.07.27 at 15h 20m 09s.xml">
+      <configuration name="SdaGenericListImplTest.shouldAddValueToEmptyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListImplTest - 2019.07.27 at 14h 22m 23s.xml">
-      <configuration name="SdaListImplTest" configurationId="JUnit" />
+    <history-entry file="FirstNumberTest_shouldReturnFirstNumber - 2019.07.29 at 09h 44m 52s.xml">
+      <configuration name="FirstNumberTest.shouldReturnFirstNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListImplTest_isRemovingFirstElement - 2019.07.27 at 14h 22m 59s.xml">
-      <configuration name="SdaListImplTest.isRemovingFirstElement" configurationId="JUnit" />
+    <history-entry file="FactorialTest_shouldReturnCorrectValueForZero - 2019.07.29 at 09h 45m 38s.xml">
+      <configuration name="FactorialTest.shouldReturnCorrectValueForZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListImplTest_isRemovingFirstElement - 2019.07.27 at 14h 23m 12s.xml">
-      <configuration name="SdaListImplTest.isRemovingFirstElement" configurationId="JUnit" />
+    <history-entry file="FirstNumberTest_shouldReturnFirstNumber - 2019.07.29 at 09h 45m 41s.xml">
+      <configuration name="FirstNumberTest.shouldReturnFirstNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListImplTest_isRemovingElement - 2019.07.27 at 14h 25m 25s.xml">
-      <configuration name="SdaListImplTest.isRemovingElement" configurationId="JUnit" />
+    <history-entry file="FirstNumberTest - 2019.07.29 at 09h 46m 31s.xml">
+      <configuration name="FirstNumberTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListImplTest - 2019.07.27 at 14h 31m 05s.xml">
-      <configuration name="SdaListImplTest" configurationId="JUnit" />
+    <history-entry file="FirstNumberTest - 2019.07.29 at 09h 46m 50s.xml">
+      <configuration name="FirstNumberTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListTiTest - 2019.07.27 at 14h 37m 59s.xml">
-      <configuration name="SdaListTiTest" configurationId="JUnit" />
+    <history-entry file="FirstNumberTest_shouldReturnFirstNumber - 2019.07.29 at 09h 52m 20s.xml">
+      <configuration name="FirstNumberTest.shouldReturnFirstNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListTiTest - 2019.07.27 at 14h 38m 43s.xml">
-      <configuration name="SdaListTiTest" configurationId="JUnit" />
+    <history-entry file="FirstNumberTest_shouldReturnFirstNumber - 2019.07.29 at 10h 13m 31s.xml">
+      <configuration name="FirstNumberTest.shouldReturnFirstNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SdaListImplTest - 2019.07.27 at 14h 39m 10s.xml">
-      <configuration name="SdaListImplTest" configurationId="JUnit" />
+    <history-entry file="FirstNumberTest - 2019.07.29 at 10h 37m 59s.xml">
+      <configuration name="FirstNumberTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -664,22 +636,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1911" y="707" width="1893" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.3402556" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.34822887" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" visible="true" weight="0.22030237" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48615548" weight="0.20019627" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5484558" side_tool="true" weight="0.33916083" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45101172" weight="0.31520396" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.45101172" weight="0.31501472" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4515442" weight="0.3563715" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4515442" visible="true" weight="0.49283668" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38444924" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -718,69 +691,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FactorialTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/mathematic/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/fibonacci/FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/fibonnaci/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/sda/exception/exceptionsexample/CheckedExceptionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/sda/exception/exceptionsexample/ClassLimitExceededException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/sda/exception/exceptionsexample/ClassRegisterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/sda/exception/exceptionsexample/ThrowExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -813,13 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -948,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/ArrayOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/sort/SortAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1027,42 +923,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datastructures/src/test/java/SdaListTiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="17" column="14" lean-forward="true" selection-end-line="250" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastructures/src/test/java/SdaListImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/generics/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1077,7 +943,7 @@
     <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/List/SdaList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -1096,17 +962,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/List/SdaGenericList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/List/SdaGenericListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1127">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding>
             <element signature="e#1464#1465#0" expanded="true" />
             <element signature="e#1491#1492#0" expanded="true" />
@@ -1115,6 +974,129 @@
             <element signature="e#2159#2160#0" expanded="true" />
             <element signature="e#2201#2202#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructures/src/test/java/List/SdaListImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/generics/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructures/src/main/java/List/SdaGenericList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructures/src/test/java/List/SdaGenericListImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="227" column="42" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/RecursionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="52" selection-start-line="51" selection-start-column="31" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/ArrayOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FactorialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FieldsFigures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/test/java/com/sda/mathematic/FirstNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/NwdAndNww.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/mathematic/FirstNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1170,7 +1152,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>datastructures</last-edited>
+          <last-edited>alhorithms</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

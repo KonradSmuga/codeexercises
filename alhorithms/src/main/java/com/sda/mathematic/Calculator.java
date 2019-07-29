@@ -39,4 +39,6 @@ public class Calculator {
         return Math.pow(number, power);
     }
 
+
+
 }
