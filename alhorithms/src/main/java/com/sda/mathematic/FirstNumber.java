@@ -11,20 +11,25 @@ public class FirstNumber {
         for (int i = 1; i < range; i++) {
             BigInteger bigInteger = BigInteger.valueOf(i);
             boolean probablePrime = bigInteger.isProbablePrime(i);
-            if(probablePrime == true){
+            if (probablePrime == true) {
                 numbers.add(i);
             }
 
         }
         return numbers;
-//        List<Integer> numbers = new ArrayList<>();
-//
-//        for (int i = 1; i < range; i++) {
-//
-//                if (i>3 && i%2!=0 && i%3!=0 && i%5!= 0) {
-//                    numbers.add(i);
-//            }
-//        }
-//        return numbers;
     }
+
+    public List<Integer> generatePrimeNumbersOwn(int range) {
+
+        List<Integer> numbers = new ArrayList<>();
+
+        for (int i = 2; i < range; i++) {
+
+        }
+    return numbers;
+    }
+
+
+
 }
+

@@ -1,6 +1,7 @@
 package com.sda.mathematic;
 
 
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 
@@ -17,12 +18,13 @@ class FirstNumberTest {
 
         //given
         FirstNumber firstNumber = new FirstNumber();
-        int range = 20;
+        int range = 1000;
         //when
         List<Integer> numbers = firstNumber.generatePrimeNumbers(range);
-
+        List<Integer> numbersWithMethod = firstNumber.generatePrimeNumbersOwn(range);
         //then
-        assertThat(numbers).containsExactly(2, 3, 5, 7, 11, 13, 17, 19);
+
+        Assert.assertEquals(numbers, numbersWithMethod);
     }
 }
 

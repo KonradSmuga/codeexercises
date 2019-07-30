@@ -27,8 +27,10 @@ public class Main {
 
         FirstNumber firstNumber = new FirstNumber();
 
-        List<Integer> integers = firstNumber.generatePrimeNumbers(30);
+        List<Integer> integers = firstNumber.generatePrimeNumbersOwn(1000);
         System.out.println(integers);
+
+
     }
 
 
