@@ -12,12 +12,12 @@
         <module name="datastructures" />
         <module name="designpatterns" />
         <module name="exception" />
-        <module name="learningawesometest" />
         <module name="stream" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="datastructures" target="8" />
+      <module name="learningawesometest" target="8" />
       <module name="tdd" target="1.5" />
     </bytecodeTargetLevel>
   </component>

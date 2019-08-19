@@ -1,7 +1,7 @@
 package pl.sda.javawwa20.mockitolesson;
 
 import org.junit.*;
-import org.testng.annotations.Test;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;

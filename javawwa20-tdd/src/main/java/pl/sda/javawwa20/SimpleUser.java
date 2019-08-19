@@ -1,4 +1,4 @@
-package com.sda.testing;
+package pl.sda.javawwa20;
 
 public class SimpleUser {
 
