@@ -1,7 +1,9 @@
 package com.sda.mathematic;
 
+import java.lang.reflect.Array;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class FirstNumber {
@@ -22,14 +24,17 @@ public class FirstNumber {
     public List<Integer> generatePrimeNumbersOwn(int range) {
 
         List<Integer> numbers = new ArrayList<>();
+        List<Boolean> isItPrime = new ArrayList<>();
 
-        for (int i = 2; i < range; i++) {
+        for (int i = 0; i <= range; i++) {
 
+            for (int j = 2; j + i <= range; j = j + i) {
+
+            }
         }
-    return numbers;
+        return numbers;
     }
 
-
-
 }
+
 

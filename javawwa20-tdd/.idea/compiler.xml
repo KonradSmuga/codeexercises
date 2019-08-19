@@ -6,19 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="alhorithms" />
-        <module name="arrays" />
-        <module name="concurrency" />
-        <module name="datastructures" />
-        <module name="designpatterns" />
-        <module name="exception" />
-        <module name="learningawesometest" />
-        <module name="stream" />
+        <module name="tddlessons" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="datastructures" target="8" />
-      <module name="tdd" target="1.5" />
+      <module name="tddlessons" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
