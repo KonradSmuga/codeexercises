@@ -18,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="datastructures" target="8" />
       <module name="learningawesometest" target="8" />
+      <module name="patterns" target="1.5" />
       <module name="tdd" target="1.5" />
     </bytecodeTargetLevel>
   </component>
