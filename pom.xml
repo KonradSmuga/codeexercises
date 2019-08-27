@@ -29,6 +29,8 @@
         <module>stream</module>
         <module>learning-awesometest</module>
         <module>alhorithms</module>
+        <module>spring-intro</module>
+        <module>calculator</module>
     </modules>
 
     <dependencies>
@@ -104,6 +106,7 @@
             <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
+
 
 
     </dependencies>
