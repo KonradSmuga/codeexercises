@@ -31,6 +31,8 @@
         <module>alhorithms</module>
         <module>spring-intro</module>
         <module>calculator</module>
+        <module>regex</module>
+        <module>inputoutput</module>
     </modules>
 
     <dependencies>
