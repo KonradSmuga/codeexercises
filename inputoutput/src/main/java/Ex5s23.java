@@ -7,12 +7,11 @@ public class Ex5s23 {
     public static void main(String[] args) {
 
         try (
-            OutputStream  outputStream = Files.newOutputStream(Paths.get("hello3.txt"));
+            OutputStream  outputStream = Files.newOutputStream(Paths.get("hello4.txt"));
             DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
 
         ){
-            dataOutputStream.writeInt(15);
-            dataOutputStream.writeInt(11);
+            dataOutputStream.writeBytes("hello");
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex1s11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex1s22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex3s1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex3s13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex4s15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex5s23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Iotask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26_read.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hello3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputoutput/src/main/java/Ex5s23.java" beforeDir="false" afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex5s23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputoutput/target/classes/Ex5s23.class" beforeDir="false" afterPath="$PROJECT_DIR$/inputoutput/target/classes/Ex5s23.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,8 +75,8 @@
           <entry key="class" value="3" />
           <entry key="fxml" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="349" />
-          <entry key="txt" value="11" />
+          <entry key="java" value="351" />
+          <entry key="txt" value="13" />
           <entry key="xml" value="27" />
         </counts>
       </usages-collector>
@@ -91,8 +84,8 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="349" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="JAVA" value="351" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="XML" value="28" />
         </counts>
       </usages-collector>
@@ -100,15 +93,15 @@
         <counts>
           <entry key="dummy" value="224" />
           <entry key="fxml" value="484" />
-          <entry key="java" value="51119" />
-          <entry key="txt" value="141" />
+          <entry key="java" value="51301" />
+          <entry key="txt" value="142" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="51119" />
-          <entry key="PLAIN_TEXT" value="365" />
+          <entry key="JAVA" value="51301" />
+          <entry key="PLAIN_TEXT" value="366" />
           <entry key="XML" value="560" />
         </counts>
       </usages-collector>
@@ -176,11 +169,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex5s23.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="153">
+              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello4.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26_read.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,9 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-patterns/src/main/java/builder/barBuilder/BarFactory.java" />
-        <option value="$PROJECT_DIR$/design-patterns/src/main/java/builder/barBuilder/Ingredients.java" />
-        <option value="$PROJECT_DIR$/design-patterns/src/main/java/builder/barBuilder/BarRunner.java" />
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/fasada/BoxRunner.java" />
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/fasada/Box.java" />
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/fasada/BoxFactory.java" />
@@ -277,7 +296,10 @@
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/ReadFile.java" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex4s15.java" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex1s22.java" />
+        <option value="$PROJECT_DIR$/hello3.txt" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex5s23.java" />
+        <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26.java" />
+        <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26_read.java" />
       </list>
     </option>
   </component>
@@ -289,8 +311,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2201" />
-    <option name="y" value="752" />
+    <option name="x" value="2066" />
+    <option name="y" value="700" />
     <option name="width" value="1654" />
     <option name="height" value="778" />
   </component>
@@ -371,7 +393,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567516947785" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567519097343" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -425,16 +447,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex5s23">
+  <component name="RunManager" selected="Application.Ex6s26_read">
     <configuration name="Ex1s22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex1s22" />
-      <module name="inputoutput" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex3s1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex3s1" />
       <module name="inputoutput" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -454,27 +469,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadFile" />
+    <configuration name="Ex6s26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex6s26" />
+      <module name="inputoutput" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex6s26_read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex6s26_read" />
       <module name="inputoutput" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex3s1" />
-      <item itemvalue="Application.ReadFile" />
       <item itemvalue="Application.Ex4s15" />
       <item itemvalue="Application.Ex1s22" />
       <item itemvalue="Application.Ex5s23" />
+      <item itemvalue="Application.Ex6s26" />
+      <item itemvalue="Application.Ex6s26_read" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex6s26_read" />
+        <item itemvalue="Application.Ex6s26" />
         <item itemvalue="Application.Ex5s23" />
         <item itemvalue="Application.Ex1s22" />
         <item itemvalue="Application.Ex4s15" />
-        <item itemvalue="Application.ReadFile" />
-        <item itemvalue="Application.Ex3s1" />
       </list>
     </recent_temporary>
   </component>
@@ -548,7 +570,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1970" y="1097" width="1654" height="778" extended-state="0" />
+    <frame x="2066" y="700" width="1654" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -559,12 +581,12 @@
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.44932845" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32946146" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4847689" weight="0.16561845" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5567766" side_tool="true" visible="true" weight="0.20179372" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48412699" weight="0.16442451" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.55738705" side_tool="true" visible="true" weight="0.20179372" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.44166157" weight="0.32436472" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.44322345" visible="true" weight="0.20179372" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.44261295" visible="true" weight="0.20179372" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38444924" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -609,21 +631,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/pizza/pizzaType/Marinara.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/circleFlywight/CircleFactory2.java" />
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/builder/pizza/PizzaRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -951,13 +958,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex5s23.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex5s23.java">
+    <entry file="file://$PROJECT_DIR$/hello4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="204">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26_read.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
