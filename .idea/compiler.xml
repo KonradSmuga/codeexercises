@@ -14,6 +14,7 @@
         <module name="datastructures" />
         <module name="designpatterns" />
         <module name="exception" />
+        <module name="inputoutput" />
         <module name="regex" />
         <module name="springintro" />
         <module name="stream" />
