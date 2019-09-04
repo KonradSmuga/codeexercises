@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex7s28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex7s36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex8s38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex9s39.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hello3.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,7 +73,7 @@
           <entry key="class" value="3" />
           <entry key="fxml" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="366" />
+          <entry key="java" value="367" />
           <entry key="txt" value="18" />
           <entry key="xml" value="27" />
         </counts>
@@ -85,7 +82,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="366" />
+          <entry key="JAVA" value="367" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="28" />
         </counts>
@@ -94,14 +91,14 @@
         <counts>
           <entry key="dummy" value="224" />
           <entry key="fxml" value="484" />
-          <entry key="java" value="52752" />
+          <entry key="java" value="52881" />
           <entry key="txt" value="148" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="52752" />
+          <entry key="JAVA" value="52881" />
           <entry key="PLAIN_TEXT" value="372" />
           <entry key="XML" value="560" />
         </counts>
@@ -137,11 +134,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex8s38.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="50">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex9s39.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,7 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-patterns/src/main/java/builder/pizza/pizzaType/Waiter.java" />
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/flywight/BoxRunner.java" />
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/flywight/Box.java" />
         <option value="$PROJECT_DIR$/design-patterns/src/main/java/flywight/BoxFactory.java" />
@@ -258,6 +266,7 @@
         <option value="$PROJECT_DIR$/hello3.txt" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex7s36.java" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex8s38.java" />
+        <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex9s39.java" />
       </list>
     </option>
   </component>
@@ -269,10 +278,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2059" />
-    <option name="y" value="865" />
+    <option name="x" value="2011" />
+    <option name="y" value="545" />
     <option name="width" value="1646" />
-    <option name="height" value="657" />
+    <option name="height" value="938" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -351,7 +360,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567600700237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567601186159" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -405,14 +414,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex8s38">
-    <configuration name="Ex6s26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex6s26" />
-      <module name="inputoutput" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex9s39">
     <configuration name="Ex6s26_read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex6s26_read" />
       <module name="inputoutput" />
@@ -441,20 +443,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex9s39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex9s39" />
+      <module name="inputoutput" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Ex6s26" />
       <item itemvalue="Application.Ex6s26_read" />
       <item itemvalue="Application.Ex7s28" />
       <item itemvalue="Application.Ex7s36" />
       <item itemvalue="Application.Ex8s38" />
+      <item itemvalue="Application.Ex9s39" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex9s39" />
         <item itemvalue="Application.Ex8s38" />
         <item itemvalue="Application.Ex7s36" />
         <item itemvalue="Application.Ex7s28" />
         <item itemvalue="Application.Ex6s26_read" />
-        <item itemvalue="Application.Ex6s26" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +537,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2059" y="865" width="1646" height="657" extended-state="0" />
+    <frame x="2009" y="951" width="1646" height="657" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -539,12 +548,12 @@
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.31411043" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32946146" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48412699" weight="0.16442451" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5601227" side_tool="true" visible="true" weight="0.24270073" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.48343557" visible="true" weight="0.29562044" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5165644" side_tool="true" visible="true" weight="0.29562044" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.4398773" weight="0.3229927" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4398773" visible="true" weight="0.24270073" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.44010416" weight="0.13475177" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38444924" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -591,23 +600,10 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/inputoutput/src/main/java/Ex8s38.java</url>
-          <line>5</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/circleFlywight/CircleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/circleFlywight/CircleRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -965,8 +961,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex8s38.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="50">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex9s39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
