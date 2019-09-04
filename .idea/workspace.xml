@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Serialization/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Serialization/SerializationObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputoutput/src/main/java/Ex9s39.java" beforeDir="false" afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Ex9s39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputoutput/target/classes/Ex9s39.class" beforeDir="false" afterPath="$PROJECT_DIR$/inputoutput/target/classes/Ex9s39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputoutput/src/main/java/Serialization/SerializationObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/inputoutput/src/main/java/Serialization/SerializationObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,14 +92,14 @@
         <counts>
           <entry key="dummy" value="224" />
           <entry key="fxml" value="484" />
-          <entry key="java" value="53294" />
+          <entry key="java" value="53339" />
           <entry key="txt" value="148" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="53294" />
+          <entry key="JAVA" value="53339" />
           <entry key="PLAIN_TEXT" value="372" />
           <entry key="XML" value="560" />
         </counts>
@@ -165,8 +162,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Serialization/SerializationObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="152">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -314,10 +311,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2688" />
-    <option name="y" value="852" />
+    <option name="x" value="2193" />
+    <option name="y" value="714" />
     <option name="width" value="1646" />
-    <option name="height" value="834" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -405,7 +402,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567602311104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567602524298" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -588,7 +585,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2688" y="852" width="1646" height="834" extended-state="0" />
+    <frame x="2193" y="714" width="1646" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -596,15 +593,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.31411043" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.31411043" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32946146" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4828221" weight="0.2955368" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5613497" side_tool="true" visible="true" weight="0.42482758" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.48220858" weight="0.3203593" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5619632" side_tool="true" visible="true" weight="0.4236527" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.4398773" weight="0.3229927" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4386503" visible="true" weight="0.42482758" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4380368" visible="true" weight="0.4236527" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38444924" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1023,8 +1020,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Serialization/SerializationObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="152">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

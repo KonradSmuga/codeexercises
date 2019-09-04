@@ -5,9 +5,9 @@ import java.lang.reflect.InaccessibleObjectException;
 
 public class SerializationObject {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         Person person = new Person("Mike");
-        writeToFile(person);
+
         readFile();
 
     }
@@ -17,7 +17,9 @@ public class SerializationObject {
         objectOutputStream.writeObject(person);
     }
 
-    public static void readFile() throws IOException {
+    public static void readFile() throws IOException, ClassNotFoundException {
         ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream("person.bin"));
+        Person name = (Person) objectInputStream.readObject();
+        System.out.println(name);
     }
 }
