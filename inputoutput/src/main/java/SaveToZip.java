@@ -5,7 +5,7 @@ import java.util.Map;
 
 
 //kompresja plików do ZIP::
-public class Ex8s38 {
+public class SaveToZip {
     public static void main(String[] args) throws Throwable {
         Map<String, String> env = new HashMap<>();
         env.put("create", "true");
