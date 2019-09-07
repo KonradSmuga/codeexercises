@@ -21,7 +21,7 @@ public class E3Sort {
 
 }
 class StringLenghComparator implements Comparator<String>{
-
+    //przy minusie zostawia pierwszy, prrzy plusie zamienia
     @Override
     public int compare(String o1, String o2) {
         return o1.length() - o2.length();
