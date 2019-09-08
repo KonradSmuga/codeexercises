@@ -8,13 +8,17 @@ public class DigitSequence implements IntSequence {
     }
 
     public int next() {
-        int i;
-        for (int a = 0; a < 10; a++) {
 
-            i = number % 10;
-            number /= 10;
-        }
-        return 0;
+        int sum = 0;
+
+        sum += number % 10;
+        number /= 10;
+
+        return sum;
     }
 
+    @Override
+    public boolean hasNext() {
+        return number!=0;
+    }
 }

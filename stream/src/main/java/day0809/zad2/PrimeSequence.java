@@ -2,6 +2,7 @@ package day0809.zad2;
 
 public class PrimeSequence implements IntSequence {
     private int lastPrime = 1;
+    private final int MAX_PRIME = 2000;
 
     @Override
     public int next() {
@@ -16,10 +17,10 @@ public class PrimeSequence implements IntSequence {
     @Override
     public boolean hasNext() {
         int tmp = lastPrime++;
-        while (!isPrime(tmp)) {
+        while (!isPrime(tmp) && tmp < MAX_PRIME) {
             tmp++;
         }
-        if (tmp > 2000) {
+        if (tmp > MAX_PRIME) {
             return false;
         }
         return true;
@@ -42,4 +43,5 @@ public class PrimeSequence implements IntSequence {
         }
         return true;
     }
+
 }

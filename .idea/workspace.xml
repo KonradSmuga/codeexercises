@@ -2,23 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad1/Measurable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad1/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad1/Zad1Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/DigitSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/IntSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/PrimeSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/SquareSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/newLambda/Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/print5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad4/Zad4s40.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/src/main/java/newLambda/E3Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/newLambda/E3Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/src/main/java/newLambda/Zadanie/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/newLambda/Zadanie/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/Ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/Ex4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/E3Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/E3Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/StringLenghComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/StringLenghComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/multithread/Ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/multithread/Ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__com_google_guava_guava_28_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__org_checkerframework_checker_qual_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__org_mockito_mockito_core_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/ProductRating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/SimpleUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/StatusTransitionNotPossibleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/UserTDD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/forum/ForumComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/forum/ForumPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/forum/ForumUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/imitations/DefaultNotesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/imitations/FileBasedNotesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/imitations/MockNotesRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/imitations/NoSuchUserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/imitations/Note.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/imitations/NotesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/imitations/NotesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/main/java/pl/sda/javawwa20/mockitolesson/OddNumbersExterminator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/test/java/pl/sda/javawwa20/AnnotationsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/test/java/pl/sda/javawwa20/ProductRatingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/test/java/pl/sda/javawwa20/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/test/java/pl/sda/javawwa20/forum/tdd/ForumTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/test/java/pl/sda/javawwa20/imitations/DefaultNotesServiceMockDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/test/java/pl/sda/javawwa20/imitations/DefaultNotesServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/src/test/java/pl/sda/javawwa20/mockitolesson/OddNumbersExterminatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/ProductRating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/StatusTransitionNotPossibleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/UserTDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/imitations/DefaultNotesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/imitations/FileBasedNotesRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/imitations/MockNotesRespository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/imitations/NoSuchUserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/imitations/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/imitations/NotesRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/imitations/NotesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/mockitolesson/OddNumbersExterminator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/tictactoe/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/tictactoe/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/classes/pl/sda/javawwa20/tictactoe/TicTacToeGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/AnnotationsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/ProductRatingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/UserTDDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/imitations/DefaultNotesServiceBackedByMockedNotesRepositoryDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/imitations/DefaultNotesServiceMockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/imitations/DefaultNotesServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/mockitolesson/OddNumbersExterminatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/target/test-classes/pl/sda/javawwa20/tictactoe/TicTacToeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javawwa20-tdd/tddlessons.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/DigitSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/DigitSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/PrimeSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/PrimeSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/DigitSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/DigitSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/PrimeSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/PrimeSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/Zad2Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/Zad2Runner.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +128,7 @@
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="4" />
-          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.14" value="5" />
           <entry key="project.open.time.15" value="5" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="5" />
@@ -81,7 +150,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="60" />
+          <entry key="project.opened" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -90,7 +159,7 @@
           <entry key="class" value="3" />
           <entry key="fxml" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="415" />
+          <entry key="java" value="439" />
           <entry key="ser" value="1" />
           <entry key="txt" value="19" />
           <entry key="xml" value="27" />
@@ -100,7 +169,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="415" />
+          <entry key="JAVA" value="439" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="XML" value="28" />
         </counts>
@@ -109,14 +178,14 @@
         <counts>
           <entry key="dummy" value="235" />
           <entry key="fxml" value="484" />
-          <entry key="java" value="59703" />
+          <entry key="java" value="61286" />
           <entry key="txt" value="148" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="59703" />
+          <entry key="JAVA" value="61286" />
           <entry key="PLAIN_TEXT" value="383" />
           <entry key="XML" value="560" />
         </counts>
@@ -129,113 +198,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Ex1.java">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/print5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/Ex4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Ex2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad1/Zad1Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/IntSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#111#112#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/PrimeSequence.java">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad4/Zad4s40.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Ex4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/SquareSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+            <state relative-caret-position="476">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
               <folding>
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/DigitSequence.java">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/MyInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/PrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14280">
+              <caret line="895" selection-start-line="893" selection-start-column="38" selection-end-line="895" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="124" column="69" selection-start-line="124" selection-start-column="57" selection-end-line="124" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/PrintWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/Writer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -246,9 +296,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Singleton" />
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -274,9 +324,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/calculator/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/alhorithms/src/main/java/com/sda/Main.java" />
-        <option value="$PROJECT_DIR$/regex/src/main/java/Task2.java" />
         <option value="$PROJECT_DIR$/regex/src/main/java/Task1.java" />
         <option value="$PROJECT_DIR$/regex/src/main/java/bytetochar/Task2.java" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/UrlInput.java" />
@@ -322,9 +369,12 @@
         <option value="$PROJECT_DIR$/stream/src/main/java/day0809/IntSequence.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/IntSequence.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/SquareSequence.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/PrimeSequence.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/DigitSequence.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/PrimeSequence.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/MyInterface.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/print5.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/zad4/Zad4s40.java" />
       </list>
     </option>
   </component>
@@ -370,6 +420,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,6 +432,38 @@
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,36 +504,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="day0809" type="462c0819:PsiDirectoryNode" />
-              <item name="zad1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="day0809" type="462c0819:PsiDirectoryNode" />
-              <item name="zad2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newLambda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newLambda" type="462c0819:PsiDirectoryNode" />
-              <item name="Ex2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Zad3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
@@ -460,13 +515,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567932097330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567939387049" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -525,7 +578,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Zad2Runner">
+  <component name="RunManager" selected="Application.print5">
     <configuration name="E3Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="newLambda.E3Sort" />
       <module name="stream" />
@@ -578,27 +631,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zad4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zad4" />
-      <module name="regex" />
+    <configuration name="print5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0809.Zad3.print5" />
+      <module name="stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0809.Zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Zad4" />
       <item itemvalue="Application.E3Sort" />
       <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Ex4" />
       <item itemvalue="Application.Zad2Runner" />
+      <item itemvalue="Application.print5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.print5" />
         <item itemvalue="Application.Zad2Runner" />
         <item itemvalue="Application.Ex4" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.E3Sort" />
-        <item itemvalue="Application.Zad4" />
       </list>
     </recent_temporary>
   </component>
@@ -688,7 +747,7 @@
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.43802083" weight="0.3220697" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.43697917" visible="true" weight="0.29778248" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.43697917" visible="true" weight="0.29778248" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38444924" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -739,96 +798,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex7s28.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26_read.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/SaveToZip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex7s36.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex9s39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Serialization/SerializationObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person.ser">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Serialization/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputoutput/src/main/java/Ex1s22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/BigTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/QueuesAndLoops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/TaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collection/src/main/java/collectionexercise/WritesWithA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -946,32 +915,10 @@
         <state relative-caret-position="-51" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regex/src/main/java/Zad2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex/src/main/java/Zad4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaStream/SaySomething.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/E3Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -989,31 +936,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7769">
           <caret line="501" column="11" selection-start-line="501" selection-start-column="11" selection-end-line="501" selection-end-column="11" />
-          <folding>
-            <element signature="e#17393#17394#0" expanded="true" />
-            <element signature="e#17459#17460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Zadanie/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,11 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,16 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/Ex4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1057,10 +968,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/Smth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1071,35 +999,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Ex2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Ex1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/DigitSequence.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Ex2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/E3Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Zadanie/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/Ex4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/src/main/java/Zad4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/src/main/java/Zad2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/PrimeSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -1110,21 +1069,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/DigitSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-          <folding>
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/PrimeSequence.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="646">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/MyInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14280">
+          <caret line="895" selection-start-line="893" selection-start-column="38" selection-end-line="895" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="124" column="69" selection-start-line="124" selection-start-column="57" selection-end-line="124" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/print5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad4/Zad4s40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

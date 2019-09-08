@@ -9,8 +9,6 @@ public class Zad2Runner {
         System.out.println(squareSequence.next());
         System.out.println(squareSequence.next());
 
-        DigitSequence digitSequence = new DigitSequence(1235);
-        digitSequence.next();
 //
 //        final long l = System.currentTimeMillis();
 //        final int[] ints = IntStream.rangeClosed(1, 10000)
@@ -24,10 +22,24 @@ public class Zad2Runner {
         System.out.println("square next() " + square.next());
         System.out.println("square next() " + square.next());
 
+        DigitSequence digitSequence = new DigitSequence(1235);
+        System.out.println(digitSequence.next());
+        System.out.println(digitSequence.next());
+        System.out.println(digitSequence.next());
+        System.out.println(digitSequence.next());
+        System.out.println(average(new DigitSequence(1235), 100));
+
     }
 
-    public static void average(IntSequence intSequence, int n) {
-        while (intSequence.hasNext()) ;
+    public static double
+    average(IntSequence intSequence, int n) {
+
+        double sum = 0;
+        int i = 0;
+        for (; i < n && intSequence.hasNext(); i++) {
+            sum += intSequence.next();
+        }
+        return sum / i;
     }
 
 }
