@@ -22,7 +22,7 @@ public class Runner {
         Collections.sort(workerList);
         System.out.println(workerList);
 
-        Collections.sort(workerList, new PatientLastNameComparator().thenComparing(new PatientAgeComparator()));
+        Collections.sort(workerList, new PatientLastNameComparator());
         System.out.println(workerList);
 
         workerList.parallelStream()

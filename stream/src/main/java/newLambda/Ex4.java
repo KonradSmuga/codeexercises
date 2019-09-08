@@ -1,9 +1,13 @@
-package newLambda.multithread;
+package newLambda;
+
+import newLambda.multithread.MyThread;
 
 public class Ex4 {
 
     public static void main(String[] args) {
-        Thread thread = new Thread(new MyThread());
+        Thread thread = new Thread(() -> {
+
+        });
 
         thread.start();
 
