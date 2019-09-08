@@ -22,13 +22,14 @@ public class Zad2Runner {
         System.out.println("square next() " + square.next());
         System.out.println("square next() " + square.next());
 
-        DigitSequence digitSequence = new DigitSequence(1235);
-        System.out.println(digitSequence.next());
-        System.out.println(digitSequence.next());
-        System.out.println(digitSequence.next());
-        System.out.println(digitSequence.next());
-        System.out.println(average(new DigitSequence(1235), 100));
+//        DigitSequence digitSequence = new DigitSequence(1235);
+//        System.out.println(digitSequence.next());
+//        System.out.println(digitSequence.next());
+//        System.out.println(digitSequence.next());
+//        System.out.println(digitSequence.next());
+//        System.out.println(average(new DigitSequence(1235), 100));
 
+        System.out.println(IntSequence.randomInts(4, 10));
     }
 
     public static double

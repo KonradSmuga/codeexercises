@@ -9,9 +9,13 @@ public class Zad4s40 {
     public static void main(String[] args) {
         String[] tab = {"Kasia", "Ada", "Ryszard"};
 
+
+        //rosnąco
         Arrays.sort(tab, compareInDirection(true));
         System.out.println(Arrays.toString(tab));
 
+
+        //malejąco
         Arrays.sort(tab, compareInDirection(true));
         System.out.println(Arrays.toString(tab));
     }
