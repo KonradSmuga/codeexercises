@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/RandomSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/IntSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/IntSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad2/Zad2Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/src/main/java/day0809/zad4/Zad4s40.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/zad4/Zad4s40.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -314,7 +310,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1646" />
@@ -436,7 +432,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567940712297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567944045867" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -656,15 +652,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.26666668" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.26666668" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32946146" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4796875" weight="0.23864837" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5630208" side_tool="true" weight="0.42344245" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.459375" visible="true" weight="0.23864837" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="2" sideWeight="0.540625" side_tool="true" visible="true" weight="0.23864837" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.43802083" weight="0.3220697" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.43697917" visible="true" weight="0.29778248" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.43697917" weight="0.29778248" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38444924" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
