@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/ExpressionExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/MathExpriession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemButifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/StreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/StreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/iterate/NumbersGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/iterate/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/library/Immutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/Optional/OptionalOnString.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/Optional/OptionalOnString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/Smth.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/Smth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/Zad3/MyInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/Zad3/MyInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/Zad3/print5.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/Zad3/print5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad1/Measurable.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad1/Measurable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad1/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad1/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad1/Zad1Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad1/Zad1Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/DigitSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/DigitSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/IntSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/IntSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/PrimeSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/PrimeSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/SquareSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/SquareSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/Zad2Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad2/Zad2Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/day0809/zad4/Zad4s40.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/day0809/zad4/Zad4s40.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/kodillaStream/SaySomething.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/kodillaStream/SaySomething.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/GenericInterfaceOfAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/GenericInterfaceOfAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LambdaDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LambdaDouble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LambdaNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LambdaNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LambdaPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LambdaPrint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LambdaString.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LambdaString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LamdaInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/lamdaInterfaces/LamdaInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/E3Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/E3Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Ex1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Ex2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Ex4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Identified.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Identified.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/StringLenghComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/StringLenghComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/PatientAgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/PatientAgeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/PatientLastNameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/PatientLastNameComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/Zadanie/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/multithread/Ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/multithread/Ex4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/target/classes/newLambda/multithread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/stream/target/classes/newLambda/multithread/MyThread.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,7 +54,7 @@
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="1" />
@@ -109,7 +70,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="62" />
+          <entry key="project.opened" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,7 +79,7 @@
           <entry key="class" value="3" />
           <entry key="fxml" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="457" />
+          <entry key="java" value="461" />
           <entry key="kt" value="1" />
           <entry key="ser" value="1" />
           <entry key="txt" value="19" />
@@ -129,7 +90,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="457" />
+          <entry key="JAVA" value="461" />
           <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="XML" value="28" />
@@ -139,14 +100,14 @@
         <counts>
           <entry key="dummy" value="235" />
           <entry key="fxml" value="484" />
-          <entry key="java" value="64665" />
+          <entry key="java" value="65060" />
           <entry key="txt" value="148" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="64665" />
+          <entry key="JAVA" value="65060" />
           <entry key="PLAIN_TEXT" value="383" />
           <entry key="XML" value="560" />
         </counts>
@@ -159,10 +120,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex3.java">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemButifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/StreamMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/library/Immutable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/iterate/NumbersGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/StreamMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,46 +177,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/MathExpriession.java">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/iterate/People.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/ExpressionExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemButifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/StreamMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+            <state relative-caret-position="19">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -290,10 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex3s1.java" />
-        <option value="$PROJECT_DIR$/hello.txt" />
-        <option value="$PROJECT_DIR$/inputoutput/src/main/java/ReadFile.java" />
-        <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex4s15.java" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex1s22.java" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex5s23.java" />
         <option value="$PROJECT_DIR$/inputoutput/src/main/java/Ex6s26.java" />
@@ -341,6 +307,10 @@
         <option value="$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemDecorator.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemButifier.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/StreamMain.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/library/Immutable.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/iterate/NumbersGenerator.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/iterate/People.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/StreamMain.java" />
       </list>
     </option>
   </component>
@@ -352,8 +322,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2134" />
-    <option name="y" value="645" />
+    <option name="x" value="153" />
+    <option name="y" value="128" />
     <option name="width" value="1646" />
     <option name="height" value="944" />
   </component>
@@ -435,6 +405,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="day0809" type="462c0819:PsiDirectoryNode" />
+              <item name="streamTask1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="day0809" type="462c0819:PsiDirectoryNode" />
+              <item name="streamTask1" type="462c0819:PsiDirectoryNode" />
+              <item name="iterate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="beautifier" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -461,7 +452,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568028309695" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568202695701" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -520,7 +511,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamMain">
+  <component name="RunManager" selected="Application.StreamMain (1)">
     <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day0809.streamTask1.Ex1" />
       <module name="stream" />
@@ -536,6 +527,19 @@
     </configuration>
     <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day0809.streamTask1.Ex3" />
+      <module name="stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0809.streamTask1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0809.streamTask1.StreamMain" />
       <module name="stream" />
       <extension name="coverage">
         <pattern>
@@ -573,33 +577,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="print5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0809.Zad3.print5" />
-      <module name="stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day0809.Zad3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Zad2Runner" />
-      <item itemvalue="Application.print5" />
       <item itemvalue="Application.Ex1" />
       <item itemvalue="Application.Ex3" />
       <item itemvalue="Application.StreamMain" />
+      <item itemvalue="Application.StreamMain (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamMain (1)" />
         <item itemvalue="Application.StreamMain" />
         <item itemvalue="Application.Ex3" />
         <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.Zad2Runner" />
-        <item itemvalue="Application.print5" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +664,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2134" y="645" width="1646" height="944" extended-state="0" />
+    <frame x="153" y="128" width="1646" height="944" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -681,15 +672,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.31411043" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.32619646" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32946146" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.459375" weight="0.23864837" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5644172" side_tool="true" visible="true" weight="0.3976048" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.43802083" weight="0.3220697" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49937028" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.45717883" weight="0.23832923" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5648615" side_tool="true" visible="true" weight="0.39680588" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.44710326" weight="0.32186732" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.43558282" visible="true" weight="0.3976048" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.43513855" visible="true" weight="0.39680588" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49520767" weight="0.38444924" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -740,32 +731,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/sda/exception/exceptionsexample/UncheckedExceptionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex/src/main/java/5_wprowadzenie_TWiwala_zad2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaStream/SaySomething.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/newLambda/Zadanie/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
@@ -1014,6 +979,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/MathExpression.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillatask1.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/MathExpriession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/ExpressionExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemButifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2822">
@@ -1046,69 +1052,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/MathExpression.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/StreamMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex3.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/library/Immutable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/iterate/NumbersGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/MathExpriession.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/iterate/People.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        <state relative-caret-position="19">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillatask1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/ExpressionExecutor.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/StreamMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemButifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/PoemDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/kodillaLambda/beautifier/StreamMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
