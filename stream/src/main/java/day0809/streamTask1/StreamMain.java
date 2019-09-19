@@ -10,7 +10,6 @@ NumbersGenerator.generateEven(20);
 
         People.getList().stream()
                 .map(s->s.toUpperCase())
-
                 .filter(s -> s.length() <10)
                 .forEach(System.out::println);
 
