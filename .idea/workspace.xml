@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/world/Continent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/world/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/world/World.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -203,8 +200,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stream/src/main/java/world/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+            <state relative-caret-position="314">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
@@ -351,8 +348,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="360" />
-    <option name="y" value="377" />
+    <option name="x" value="409" />
+    <option name="y" value="147" />
     <option name="width" value="1237" />
     <option name="height" value="824" />
   </component>
@@ -466,7 +463,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569329521152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569329859418" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -679,18 +676,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="360" y="377" width="1237" height="824" extended-state="0" />
-    <editor active="true" />
+    <frame x="409" y="147" width="1237" height="824" extended-state="1" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.2553011" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.2553011" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49937028" weight="0.32923833" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.44868532" visible="true" weight="0.30835736" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.44868532" visible="true" weight="0.30835736" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.55131465" side_tool="true" visible="true" weight="0.30835736" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.44647354" weight="0.32186732" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -1105,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stream/src/main/java/world/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        <state relative-caret-position="314">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
