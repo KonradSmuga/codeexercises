@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
-
 public interface IntSequence {
+
+    default boolean hasNext() {
+        return true;
+    }
+
+    int next();
 }

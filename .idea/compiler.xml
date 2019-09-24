@@ -18,6 +18,7 @@
         <module name="regex" />
         <module name="springintro" />
         <module name="stream" />
+        <module name="tohome" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
