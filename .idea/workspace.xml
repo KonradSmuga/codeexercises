@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df40ee50-24c4-4ab5-9532-4ae1345a0e42" name="Default Changelist" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/flatmapStream/ForumUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/test/java/flatmapStream/ForumUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/world/Continent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/world/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/world/World.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tohome/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tohome/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tohome/src/main/java/DigitSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/tohome/src/main/java/DigitSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tohome/src/main/java/IntSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/tohome/src/main/java/IntSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tohome/src/main/java/MinusNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/tohome/src/main/java/MinusNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tohome/src/main/java/PrimeNumbersStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/tohome/src/main/java/PrimeNumbersStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tohome/src/main/java/PrimeSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/tohome/src/main/java/PrimeSequence.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,7 +79,7 @@
           <entry key="class" value="3" />
           <entry key="fxml" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="491" />
+          <entry key="java" value="494" />
           <entry key="kt" value="1" />
           <entry key="ser" value="1" />
           <entry key="txt" value="19" />
@@ -97,7 +90,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="491" />
+          <entry key="JAVA" value="494" />
           <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="XML" value="29" />
@@ -107,14 +100,14 @@
         <counts>
           <entry key="dummy" value="235" />
           <entry key="fxml" value="484" />
-          <entry key="java" value="69372" />
+          <entry key="java" value="69801" />
           <entry key="txt" value="148" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="69372" />
+          <entry key="JAVA" value="69801" />
           <entry key="PLAIN_TEXT" value="383" />
           <entry key="XML" value="560" />
         </counts>
@@ -126,27 +119,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tohome/src/main/java/DigitSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tohome/src/main/java/MinusNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tohome/src/main/java/PrimeNumbersStream.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -185,11 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stream/src/test/java/flatmapStream/ForumUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="1105">
+              <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,10 +170,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/zad2/SquareSequence.java">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/world/Country.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/world/Continent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/world/World.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,8 +263,8 @@
         <option value="Singleton" />
         <option value="Kotlin File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -281,9 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stream/src/main/java/newLambda/Zadanie/Ex4.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/MyThread.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/newLambda/E3Sort.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/newLambda/Zadanie/Runner.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/newLambda/Ex4.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/newLambda/multithread/Ex4.java" />
@@ -332,6 +337,9 @@
         <option value="$PROJECT_DIR$/tohome/src/main/java/PrimeNumbersStream.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/flatmapStream/ForumUser.java" />
         <option value="$PROJECT_DIR$/stream/src/test/java/flatmapStream/ForumUserTest.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/world/Continent.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/world/Country.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/world/World.java" />
       </list>
     </option>
   </component>
@@ -343,10 +351,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="238" />
-    <option name="width" value="1510" />
-    <option name="height" value="872" />
+    <option name="x" value="360" />
+    <option name="y" value="377" />
+    <option name="width" value="1237" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -418,7 +426,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flatmapStream" type="462c0819:PsiDirectoryNode" />
+              <item name="world" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeexercises" type="b2602c69:ProjectViewProjectNode" />
@@ -458,12 +466,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/konrad/Desktop/course/codeexercises/design-patterns/src/main/java/builder/pizza/pizzaType/Pizza2.java&#10;IOE&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/IOException.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569326776982" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569329521152" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Jav/WebMovie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Jav/KonradSmugaKodilla" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2031496" />
@@ -671,7 +679,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="238" width="1510" height="872" extended-state="0" />
+    <frame x="360" y="377" width="1237" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -679,11 +687,11 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.35971224" side_tool="true" weight="0.25825346" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.38842976" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64028776" visible="true" weight="0.2553011" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49937028" weight="0.32923833" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.44903582" visible="true" weight="0.2884097" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5509642" side_tool="true" visible="true" weight="0.2884097" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.44868532" visible="true" weight="0.30835736" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.55131465" side_tool="true" visible="true" weight="0.30835736" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.44647354" weight="0.32186732" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49966645" weight="0.3299363" />
@@ -700,7 +708,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" visible="true" weight="0.024539877" />
-      <window_info anchor="right" id="Ant Build" order="8" visible="true" weight="0.1053719" />
+      <window_info anchor="right" id="Ant Build" order="8" visible="true" weight="0.129771" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -742,27 +750,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/Zad3/MyInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex1.kt" />
     <entry file="file://$PROJECT_DIR$/stream/src/main/java/day0809/streamTask1/Ex1.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1081,10 +1068,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stream/src/test/java/flatmapStream/ForumUserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="1105">
+          <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/world/Continent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/world/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/world/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
