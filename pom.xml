@@ -27,14 +27,16 @@
         <module>design-patterns</module>
         <module>concurrency</module>
         <module>stream</module>
-        <module>learning-awesometest</module>
         <module>alhorithms</module>
         <module>spring-intro</module>
         <module>calculator</module>
         <module>regex</module>
         <module>inputoutput</module>
     </modules>
-
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
     <dependencies>
 
         <dependency>
@@ -53,6 +55,13 @@
             <version>1.2.17</version>
 
         </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.16</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -81,19 +90,19 @@
             <scope>test</scope>
         </dependency>
 
-            <dependency>
-                <groupId>org.junit.jupiter</groupId>
-                <artifactId>junit-jupiter-api</artifactId>
-                <version>RELEASE</version>
-                <scope>test</scope>
-            </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
 
-            <dependency>
-                <groupId>org.assertj</groupId>
-                <artifactId>assertj-core</artifactId>
-                <version>3.12.2</version>
-                <scope>test</scope>
-            </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.12.2</version>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>org.assertj</groupId>
@@ -108,8 +117,6 @@
             <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
-
-
 
     </dependencies>
 
